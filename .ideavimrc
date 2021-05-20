@@ -1,2 +1,6 @@
-set relativenumber
+let mapleader=" "
 set number
+set relativenumber
+set easymotion
+set NERDTree
+set surround
