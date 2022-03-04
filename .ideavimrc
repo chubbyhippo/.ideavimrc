@@ -1,4 +1,6 @@
 let mapleader=" "
+nmap s <Plug>(easymotion-s)
+vmap s <Plug>(easymotion-s)
 set number
 set relativenumber
 set easymotion
