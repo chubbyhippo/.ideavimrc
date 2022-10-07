@@ -9,8 +9,10 @@ set surround
 
 if has('ide')
   " mappings and options that exist only in IdeaVim
-
+  
+  map <leader>b <Action>(Back)
   map <leader>d <Action>(Debug)
+  map <leader>f <Action>(Forward)
   map <leader>r <Action>(Run)
   map <leader>p <Action>(ActivateProjectToolWindow)
   map <leader>s <Action>(Switcher)
