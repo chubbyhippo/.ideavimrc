@@ -10,11 +10,16 @@ set surround
 if has('ide')
   " mappings and options that exist only in IdeaVim
   
+  map <leader>1 <Action>(ActivateProjectToolWindow)
+
+  map <leader><cr> <Action>(ShowIntentionActions)
   map <leader>b <Action>(Back)
   map <leader>d <Action>(Debug)
+  map <leader>e <Action>(ShowErrorDescription)
   map <leader>f <Action>(Forward)
+  map <leader>q <Action>(QuickJavaDoc)
   map <leader>r <Action>(Run)
-  map <leader>p <Action>(ActivateProjectToolWindow)
+  map <leader>p <Action>(ParameterInfo)
   map <leader>s <Action>(Switcher)
   map <leader>t <Action>(ActivateTerminalToolWindow)
 
