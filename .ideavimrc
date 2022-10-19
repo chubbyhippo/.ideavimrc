@@ -13,7 +13,7 @@ nnoremap J <c-w>j
 
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
-nnoremap <leader>ap :action ActivateCommitToolWindow<cr>
+nnoremap <leader>ac :action ActivateCommitToolWindow<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
 nnoremap <leader>as :action ActivateStructureToolWindow<cr>
 nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
