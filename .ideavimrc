@@ -5,11 +5,12 @@ set relativenumber
 set easymotion
 set NERDTree
 set surround
+set visualbell
 
-nnoremap H <c-w>h
-nnoremap L <c-w>l
-nnoremap K <c-w>k
-nnoremap J <c-w>j
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-k> <c-w>k
+nnoremap <c-j> <c-w>j
 
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
@@ -19,7 +20,11 @@ nnoremap <leader>as :action ActivateStructureToolWindow<cr>
 nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
 nnoremap <leader>b :action Back<cr>
+nnoremap <leader>ca :action CollapseAllRegions<cr>
+nnoremap <leader>cc :action CollapseRegion<cr>
 nnoremap <leader>d :action Debug<cr>
+nnoremap <leader>ea :action ExpandAllRegions<cr>
+nnoremap <leader>ee :action ExpandRegion<cr>
 nnoremap <leader>f :action Forward<cr>
 nnoremap <leader>gd :action GotoDeclaration<cr>
 nnoremap <leader>gi :action GotoImplementation<cr>
