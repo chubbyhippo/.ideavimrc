@@ -11,6 +11,7 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-k> <c-w>k
 nnoremap <c-j> <c-w>j
+map <c-r> <Action>(com.mnw.tabmover.actions.MoveTabToNextSplitter)<Action>(com.mnw.tabmover.actions.MoveFocusToNextWindow)
 
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
