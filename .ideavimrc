@@ -35,7 +35,7 @@ nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc
 nnoremap <leader>re :action RenameElement<cr>
 nnoremap <leader>rf :action RenameFile<cr>
-nnoremap <leader>rr :action Run<cr>
+nnoremap <leader>rr :action RunClass<cr>
 nnoremap <leader>s :action Stop<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
