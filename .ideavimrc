@@ -15,9 +15,6 @@ nnoremap <c-r> :action MoveEditorToOppositeTabGroup<cr>
 
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
-nnoremap \e :e ~/.ideavimrc<CR>
-nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
-
 nnoremap <leader>ac :action ActivateCommitToolWindow<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
 nnoremap <leader>as :action ActivateStructureToolWindow<cr>
@@ -32,7 +29,7 @@ nnoremap <leader>f :action Forward<cr>
 
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
-nnoremap <leader>q :action QuickJavaDoc
+nnoremap <Leader>q :action CloseContent<CR>
 nnoremap <leader>re :action RenameElement<cr>
 nnoremap <leader>rf :action RenameFile<cr>
 
@@ -52,8 +49,9 @@ nnoremap gf :action Forward<CR>
 nnoremap ,r :action ContextRun<CR>
 nnoremap ,c :action RunClass<CR>
 nnoremap ,f :action ChooseRunConfiguration<CR>
+nnoremap ,q :action QuickJavaDoc
 nnoremap ,t :action ActivateRunToolWindow<CR>
 nnoremap ,u :action Rerun<CR>
 
-nnoremap <s-TAB> :action PreviousTab<CR>
-nnoremap <TAB> :action NextTab<CR>
+nnoremap <s-tab> :action PreviousTab<CR>
+nnoremap <tab> :action NextTab<CR>
