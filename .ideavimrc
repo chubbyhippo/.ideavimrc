@@ -1,11 +1,11 @@
-let mapleader=" "
-nnoremap <leader>s <Plug>(easymotion-s)
+ let mapleader=" "
 set number
 set relativenumber
-set easymotion
 set NERDTree
 set surround
 set visualbell
+set easymotion
+map s <Plug>(easymotion-s)
 
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
@@ -33,7 +33,6 @@ nnoremap <Leader>q :action CloseContent<CR>
 nnoremap <leader>re :action RenameElement<cr>
 nnoremap <leader>rf :action RenameFile<cr>
 
-nnoremap <leader>s :action Stop<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
@@ -47,6 +46,7 @@ nnoremap gb :action Back<CR>
 nnoremap gf :action Forward<CR>
 
 nnoremap ,r :action ContextRun<CR>
+nnoremap ,s :action Stop<cr>
 nnoremap ,c :action RunClass<CR>
 nnoremap ,f :action ChooseRunConfiguration<CR>
 nnoremap ,q :action QuickJavaDoc
