@@ -22,7 +22,7 @@ nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
 nnoremap <leader>ca :action CollapseAllRegions<cr>
 nnoremap <leader>cc :action CollapseRegion<cr>
-nnoremap <leader>d :action Debug<cr>
+
 nnoremap <leader>ea :action ExpandAllRegions<cr>
 nnoremap <leader>ee :action ExpandRegion<cr>
 nnoremap <leader>f :action Forward<cr>
@@ -48,6 +48,7 @@ nnoremap gf :action Forward<CR>
 nnoremap ,r :action ContextRun<CR>
 nnoremap ,s :action Stop<cr>
 nnoremap ,c :action RunClass<CR>
+nnoremap ,d :action Debug<cr>
 nnoremap ,f :action ChooseRunConfiguration<CR>
 nnoremap ,q :action QuickJavaDoc
 nnoremap ,t :action ActivateRunToolWindow<CR>
