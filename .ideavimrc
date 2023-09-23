@@ -22,10 +22,11 @@ nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
 nnoremap <leader>ca :action CollapseAllRegions<cr>
 nnoremap <leader>cc :action CollapseRegion<cr>
+nnoremap <leader>ch :action CallHierarchy<cr>
 
 nnoremap <leader>ea :action ExpandAllRegions<cr>
 nnoremap <leader>ee :action ExpandRegion<cr>
-nnoremap <leader>f :action Forward<cr>
+nnoremap <leader>fu :action FindUsages<cr>
 
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
@@ -35,6 +36,7 @@ nnoremap <leader>rf :action RenameFile<cr>
 
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
+nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
 
 nnoremap gc :action GotoClass<CR>
