@@ -30,7 +30,7 @@ nnoremap <leader>fu :action FindUsages<cr>
 
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
-nnoremap <Leader>q :action CloseContent<CR>
+nnoremap <leader>q :action CloseContent<CR>
 nnoremap <leader>re :action RenameElement<cr>
 nnoremap <leader>rf :action RenameFile<cr>
 
