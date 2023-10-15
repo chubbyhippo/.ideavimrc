@@ -7,5 +7,5 @@ curl https://raw.githubusercontent.com/chubbyhippo/ideavimrc/main/.ideavimrc -o 
 ```
 $WebClient=New-Object Net.WebClient
 $Uri='https://raw.githubusercontent.com/chubbyhippo/ideavimrc/main/.ideavimrc'
-$WebClient.DownloadFile($Uri, "$Home\.ideavimrc")
+$WebClient.DownloadFile($Uri, "$Home/.ideavimrc")
 ```
