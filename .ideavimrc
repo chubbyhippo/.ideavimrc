@@ -30,31 +30,31 @@ nnoremap <leader>fu :action FindUsages<cr>
 
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
-nnoremap <leader>q :action CloseContent<CR>
+nnoremap <leader>q :action CloseContent<cr>
 nnoremap <leader>re :action RenameElement<cr>
 nnoremap <leader>rf :action RenameFile<cr>
 
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>su :action ShowUsages<cr>
-nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
+nnoremap <leader>t :action Terminal.OpenInTerminal<cr>
 
-nnoremap gc :action GotoClass<CR>
-nnoremap gi :action GotoImplementation<CR>
-nnoremap gd :action GotToDeclaration<CR>
-nnoremap gp :action GotToSuperMethod<CR>
-nnoremap gt :action GotoTest<CR>
-nnoremap gb :action Back<CR>
-nnoremap gf :action Forward<CR>
+nnoremap gc :action GotoClass<cr>
+nnoremap gi :action GotoImplementation<cr>
+nnoremap gd :action GotToDeclaration<cr>
+nnoremap gp :action GotToSuperMethod<cr>
+nnoremap gt :action GotoTest<cr>
+nnoremap gb :action Back<cr>
+nnoremap gf :action Forward<cr>
 
-nnoremap ,r :action ContextRun<CR>
+nnoremap ,r :action ContextRun<cr>
 nnoremap ,s :action Stop<cr>
-nnoremap ,c :action RunClass<CR>
+nnoremap ,c :action RunClass<cr>
 nnoremap ,d :action Debug<cr>
-nnoremap ,f :action ChooseRunConfiguration<CR>
+nnoremap ,f :action ChooseRunConfiguration<cr>
 nnoremap ,q :action QuickJavaDoc
-nnoremap ,t :action ActivateRunToolWindow<CR>
-nnoremap ,u :action Rerun<CR>
+nnoremap ,t :action ActivateRunToolWindow<cr>
+nnoremap ,u :action Rerun<cr>
 
 nnoremap <s-tab> :action PreviousTab<CR>
 nnoremap <tab> :action NextTab<CR>
