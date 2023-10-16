@@ -52,9 +52,9 @@ nnoremap ,s :action Stop<cr>
 nnoremap ,c :action RunClass<cr>
 nnoremap ,d :action Debug<cr>
 nnoremap ,f :action ChooseRunConfiguration<cr>
-nnoremap ,q :action QuickJavaDoc
+nnoremap ,q :action QuickJavaDoc<cr>
 nnoremap ,t :action ActivateRunToolWindow<cr>
 nnoremap ,u :action Rerun<cr>
 
-nnoremap <s-tab> :action PreviousTab<CR>
-nnoremap <tab> :action NextTab<CR>
+nnoremap <s-tab> :action PreviousTab<cr>
+nnoremap <tab> :action NextTab<cr>
