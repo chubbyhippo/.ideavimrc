@@ -25,7 +25,7 @@ nnoremap <leader>cc :action CollapseRegion<cr>
 nnoremap <leader>ch :action CallHierarchy<cr>
 
 nnoremap <leader>ea :action ExpandAllRegions<cr>
-nnoremap <leader>ee :action ExpandRegion<cr>
+nnoremap <leader>er :action ExpandRegion<cr>
 nnoremap <leader>fu :action FindUsages<cr>
 
 nnoremap <leader>h :action HideAllWindows<cr>
