@@ -5,7 +5,7 @@ set NERDTree
 set surround
 set visualbell
 set easymotion
-map s <Plug>(easymotion-s)
+nnoremap s <Plug>(easymotion-s)
 
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
