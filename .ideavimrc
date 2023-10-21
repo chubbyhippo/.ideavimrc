@@ -23,29 +23,18 @@ nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
 nnoremap <leader>ca :action CollapseAllRegions<cr>
 nnoremap <leader>cc :action CollapseRegion<cr>
 nnoremap <leader>ch :action CallHierarchy<cr>
-
 nnoremap <leader>ea :action ExpandAllRegions<cr>
 nnoremap <leader>er :action ExpandRegion<cr>
 nnoremap <leader>fu :action FindUsages<cr>
-
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action CloseContent<cr>
 nnoremap <leader>re :action RenameElement<cr>
 nnoremap <leader>rf :action RenameFile<cr>
-
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<cr>
-
-nnoremap gc :action GotoClass<cr>
-nnoremap gi :action GotoImplementation<cr>
-nnoremap gd :action GotToDeclaration<cr>
-nnoremap gp :action GotToSuperMethod<cr>
-nnoremap gt :action GotoTest<cr>
-nnoremap gb :action Back<cr>
-nnoremap gf :action Forward<cr>
 
 nnoremap ,r :action ContextRun<cr>
 nnoremap ,s :action Stop<cr>
