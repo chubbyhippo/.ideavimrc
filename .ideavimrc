@@ -31,7 +31,7 @@ nnoremap <leader>gg :action GotoImplementation<cr>
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action CloseContent<cr>
-nnoremap <leader>r :action Refactorings.QuickListPopupAction<cr>
+nnoremap <leader>re :action Refactorings.QuickListPopupAction<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>su :action ShowUsages<cr>
