@@ -21,7 +21,7 @@ nnoremap <leader>as :action ActivateStructureToolWindow<cr>
 nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
 nnoremap <leader>ca :action CollapseAllRegions<cr>
-nnoremap <leader>cc :action CollapseRegion<cr>
+nnoremap <leader>cr :action CollapseRegion<cr>
 nnoremap <leader>ch :action CallHierarchy<cr>
 nnoremap <leader>ea :action ExpandAllRegions<cr>
 nnoremap <leader>er :action ExpandRegion<cr>
