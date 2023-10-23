@@ -26,7 +26,8 @@ nnoremap <leader>cr :action CollapseRegion<cr>
 nnoremap <leader>ea :action ExpandAllRegions<cr>
 nnoremap <leader>er :action ExpandRegion<cr>
 nnoremap <leader>fu :action FindUsages<cr>
-nnoremap <leader>g :action Generate<cr>
+nnoremap <leader>gi :action Generate<cr>
+nnoremap <leader>gg :action GotoImplementation<cr>
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action CloseContent<cr>
