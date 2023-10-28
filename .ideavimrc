@@ -3,7 +3,13 @@ set number
 set relativenumber
 set NERDTree
 set surround
-set visualbell
+set visualbel
+
+
+
+
+
+l
 set easymotion
 nmap s <Plug>(easymotion-s)
 
@@ -20,6 +26,7 @@ nnoremap <leader>ad :action ActivateDebugToolWindow<cr>
 nnoremap <leader>ag :action ActivateGradleToolWindow<cr>
 nnoremap <leader>am :action ActivateMavenToolWindow<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
+nnoremap <leader>ar :action ActivateRunToolWindow<cr>
 nnoremap <leader>as :action ActivateStructureToolWindow<cr>
 nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
@@ -40,6 +47,7 @@ nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<cr>
+
 
 nnoremap ,r :action ContextRun<cr>
 nnoremap ,s :action Stop<cr>
