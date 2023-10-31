@@ -3,13 +3,7 @@ set number
 set relativenumber
 set NERDTree
 set surround
-set visualbel
-
-
-
-
-
-l
+set visualbell
 set easymotion
 nmap s <Plug>(easymotion-s)
 
