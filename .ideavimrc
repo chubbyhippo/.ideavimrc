@@ -41,7 +41,7 @@ nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<cr>
-
+nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
 nnoremap ,r :action ContextRun<cr>
 nnoremap ,s :action Stop<cr>
