@@ -43,7 +43,6 @@ nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
-nnoremap ,r :action ContextRun<cr>
 nnoremap ,s :action Stop<cr>
 nnoremap ,c :action RunClass<cr>
 nnoremap ,d :action Debug<cr>
