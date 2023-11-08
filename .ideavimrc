@@ -30,6 +30,7 @@ nnoremap <leader>cr :action CollapseRegion<cr>
 nnoremap <leader>ea :action ExpandAllRegions<cr>
 nnoremap <leader>er :action ExpandRegion<cr>
 nnoremap <leader>fu :action FindUsages<cr>
+nnoremap <leader>gg :action Generate<cr>
 nnoremap <leader>ge :action Generate<cr>
 nnoremap <leader>gi :action GotoImplementation<cr>
 nnoremap <leader>h :action HideAllWindows<cr>
@@ -37,6 +38,7 @@ nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action CloseContent<cr>
 nnoremap <leader>re :action Refactorings.QuickListPopupAction<cr>
 nnoremap <leader>rr :action ContextRun<cr>
+nnoremap <leader>ru :action ContextRun<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>su :action ShowUsages<cr>
