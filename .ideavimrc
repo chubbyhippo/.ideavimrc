@@ -41,11 +41,11 @@ nnoremap <leader>rr :action ContextRun<cr>
 nnoremap <leader>ru :action ContextRun<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
+nnoremap <leader>st :action Stop<cr>
 nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action Terminal.OpenInTerminal<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
-nnoremap ,s :action Stop<cr>
 nnoremap ,c :action RunClass<cr>
 nnoremap ,d :action Debug<cr>
 nnoremap ,f :action ChooseRunConfiguration<cr>
