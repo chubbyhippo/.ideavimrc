@@ -34,6 +34,7 @@ nnoremap <leader>fu :action FindUsages<cr>
 nnoremap <leader>gg :action Generate<cr>
 nnoremap <leader>ge :action Generate<cr>
 nnoremap <leader>gi :action GotoImplementation<cr>
+nnoremap <leader>gs :action GotoSuperMethod<cr>
 nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc<cr>
