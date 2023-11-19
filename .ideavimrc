@@ -37,6 +37,7 @@ nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc<cr>
 nnoremap <leader>re :action Refactorings.QuickListPopupAction<cr>
+nnoremap <leader>rn :action RenameElement<cr>
 nnoremap <leader>rr :action ContextRun<cr>
 nnoremap <leader>ru :action ContextRun<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
