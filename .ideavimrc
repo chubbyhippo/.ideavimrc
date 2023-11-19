@@ -39,6 +39,7 @@ nnoremap <leader>h :action HideAllWindows<cr>
 nnoremap <leader>il :action Inline<cr>
 nnoremap <leader>in :action Inline<cr>
 nnoremap <leader>ip :action IntroduceParameter<cr>
+nnoremap <leader>ip :action IntroduceVariable<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc<cr>
 nnoremap <leader>re :action Refactorings.QuickListPopupAction<cr>
