@@ -28,6 +28,7 @@ nnoremap <leader>ca :action CollapseAllRegions<cr>
 nnoremap <leader>ch :action CallHierarchy<cr>
 nnoremap <leader>cr :action CollapseRegion<cr>
 nnoremap <leader>ea :action ExpandAllRegions<cr>
+nnoremap <leader>ei :action ExtractInterface<cr>
 nnoremap <leader>er :action ExpandRegion<cr>
 nnoremap <leader>fu :action FindUsages<cr>
 nnoremap <leader>gg :action Generate<cr>
