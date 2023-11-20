@@ -55,7 +55,6 @@ nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
 nnoremap ,d :action Debug<cr>
 nnoremap ,f :action ChooseRunConfiguration<cr>
-nnoremap ,q :action QuickJavaDoc<cr>
 nnoremap ,t :action ActivateRunToolWindow<cr>
 nnoremap ,u :action Rerun<cr>
 
