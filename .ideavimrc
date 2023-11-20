@@ -42,6 +42,7 @@ nnoremap <leader>ip :action IntroduceParameter<cr>
 nnoremap <leader>ip :action IntroduceVariable<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc<cr>
+nnoremap <leader>rc :action RunClass<cr>
 nnoremap <leader>re :action Refactorings.QuickListPopupAction<cr>
 nnoremap <leader>rn :action RenameElement<cr>
 nnoremap <leader>rr :action ContextRun<cr>
@@ -52,7 +53,6 @@ nnoremap <leader>st :action Stop<cr>
 nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
-nnoremap ,c :action RunClass<cr>
 nnoremap ,d :action Debug<cr>
 nnoremap ,f :action ChooseRunConfiguration<cr>
 nnoremap ,q :action QuickJavaDoc<cr>
