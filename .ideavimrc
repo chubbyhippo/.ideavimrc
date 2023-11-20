@@ -5,6 +5,8 @@ set NERDTree
 set surround
 set visualbell
 set easymotion
+set ignorecase
+set smartcase
 nmap s <Plug>(easymotion-s)
 
 nnoremap <c-h> <c-w>h
