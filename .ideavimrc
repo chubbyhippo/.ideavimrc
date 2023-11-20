@@ -58,7 +58,6 @@ nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>t :action ToggleLineBreakpoint<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
-nnoremap ,f :action ChooseRunConfiguration<cr>
 nnoremap ,u :action Rerun<cr>
 
 nnoremap <s-tab> :action PreviousTab<cr>
