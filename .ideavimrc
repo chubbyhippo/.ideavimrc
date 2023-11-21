@@ -43,6 +43,7 @@ nnoremap <leader>il :action Inline<cr>
 nnoremap <leader>in :action Inline<cr>
 nnoremap <leader>ip :action IntroduceParameter<cr>
 nnoremap <leader>ip :action IntroduceVariable<cr>
+nnoremap <leader>o :action OverrideMethods<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc<cr>
 nnoremap <leader>rc :action RunClass<cr>
