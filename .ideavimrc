@@ -17,6 +17,7 @@ nnoremap <c-r> :action MoveEditorToOppositeTabGroup<cr>
 
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
+nnoremap <leader>ac :action ActivateBookmarksToolWindow<cr>
 nnoremap <leader>ac :action ActivateCommitToolWindow<cr>
 nnoremap <leader>ad :action ActivateDebugToolWindow<cr>
 nnoremap <leader>ag :action ActivateGradleToolWindow<cr>
