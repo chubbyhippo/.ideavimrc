@@ -57,7 +57,7 @@ nnoremap <leader>se :action ShowErrorDescription<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>st :action Stop<cr>
 nnoremap <leader>su :action ShowUsages<cr>
-nnoremap <leader>sw :action SurroundWith<cr>
+noremap <leader>sw :action SurroundWith<cr>
 nnoremap <leader>t :action ToggleLineBreakpoint<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
 
