@@ -50,6 +50,7 @@ nnoremap <leader>q :action QuickJavaDoc<cr>
 nnoremap <leader>rc :action RunClass<cr>
 noremap <leader>re :action Refactorings.QuickListPopupAction<cr>
 noremap <leader>rf :action Refactorings.QuickListPopupAction<cr>
+nnoremap <leader>ri :action Inline<cr>
 nnoremap <leader>rn :action RenameElement<cr>
 nnoremap <leader>rr :action ContextRun<cr>
 nnoremap <leader>ru :action ContextRun<cr>
