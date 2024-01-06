@@ -1,12 +1,15 @@
 let mapleader=" "
 set number
 set relativenumber
-set NERDTree
-set surround
 set visualbell
-set easymotion
 set ignorecase
 set smartcase
+set quickscope
+
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
 nmap s <Plug>(easymotion-s)
 
 nnoremap <c-h> <c-w>h
