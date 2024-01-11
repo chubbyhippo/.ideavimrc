@@ -12,6 +12,7 @@ Plug 'preservim/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
 nmap s <Plug>(easymotion-s)
 
+imap jj <Esc>
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-k> <c-w>k
