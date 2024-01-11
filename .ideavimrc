@@ -1,4 +1,4 @@
-let mapleader=" "
+" set
 set number
 set relativenumber
 set visualbell
@@ -6,10 +6,26 @@ set ignorecase
 set smartcase
 set quickscope
 
-Plug 'easymotion/vim-easymotion'
-Plug 'tpope/vim-surround'
-Plug 'preservim/nerdtree'
-Plug 'terryma/vim-multiple-cursors'
+" sethandler
+sethandler <c-a> a:ide
+sethandler <c-b> a:ide
+sethandler <c-c> a:ide
+sethandler <c-d> a:vim
+sethandler <c-e> a:ide
+sethandler <c-f> a:ide
+sethandler <c-h> a:vim
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+sethandler <c-l> a:vim
+sethandler <c-n> a:vim
+sethandler <c-p> a:vim
+sethandler <c-u> a:vim
+sethandler <c-v> a:ide
+sethandler <c-w> a:ide
+sethandler <c-x> a:ide
+
+" remap
+let mapleader=" "
 nmap s <Plug>(easymotion-s)
 
 imap jj <Esc>
@@ -71,19 +87,8 @@ nnoremap ,u :action Rerun<cr>
 nnoremap <s-tab> :action PreviousTab<cr>
 nnoremap <tab> :action NextTab<cr>
 
-sethandler <c-a> a:ide
-sethandler <c-b> a:ide
-sethandler <c-c> a:ide
-sethandler <c-d> a:vim
-sethandler <c-e> a:ide
-sethandler <c-f> a:ide
-sethandler <c-h> a:vim
-sethandler <c-j> a:vim
-sethandler <c-k> a:vim
-sethandler <c-l> a:vim
-sethandler <c-n> a:vim
-sethandler <c-p> a:vim
-sethandler <c-u> a:vim
-sethandler <c-v> a:ide
-sethandler <c-w> a:ide
-sethandler <c-x> a:ide
+" plugins
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
