@@ -5,6 +5,8 @@ set visualbell
 set ignorecase
 set smartcase
 set quickscope
+set which-key
+set notimeout
 
 " sethandler
 sethandler <c-a> a:ide
