@@ -28,7 +28,6 @@ sethandler <c-x> a:ide
 
 " remap
 let mapleader=" "
-nmap s <Plug>(easymotion-s)
 
 imap jj <Esc>
 nnoremap <c-h> <c-w>h
