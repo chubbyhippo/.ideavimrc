@@ -31,6 +31,10 @@ sethandler <c-x> a:ide
 let mapleader=" "
 
 imap jj <Esc>
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap <c-d> <c-d>zz
+nnoremap <c-u> <c-u>zz
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-k> <c-w>k
