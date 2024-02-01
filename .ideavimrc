@@ -93,7 +93,6 @@ nnoremap <s-tab> :action PreviousTab<cr>
 nnoremap <tab> :action NextTab<cr>
 
 " plugins
-Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
