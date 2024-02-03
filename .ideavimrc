@@ -88,6 +88,7 @@ nnoremap <leader>su :action ShowUsages<cr>
 noremap <leader>sw :action SurroundWith<cr>
 nnoremap <leader>t :action ToggleLineBreakpoint<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
+nnoremap <leader><leader> <c-^>
 
 nnoremap <s-tab> :action PreviousTab<cr>
 nnoremap <tab> :action NextTab<cr>
