@@ -6,7 +6,6 @@ set ignorecase
 set smartcase
 set quickscope
 set which-key
-set sneak
 set notimeout
 
 " sethandler
