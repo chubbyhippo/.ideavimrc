@@ -6,7 +6,6 @@ set ignorecase
 set smartcase
 set which-key
 set notimeout
-set sneak
 set quickscope
 
 " sethandler
@@ -98,3 +97,4 @@ nnoremap <tab> :action NextTab<cr>
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'justinmk/vim-sneak'
