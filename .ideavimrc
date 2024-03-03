@@ -38,7 +38,10 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 nnoremap <c-k> <c-w>k
 nnoremap <c-j> <c-w>j
-nnoremap <c-r> :action MoveEditorToOppositeTabGroup<cr>
+nnoremap <c-s-h> :action MoveEditorToOppositeTabGroup<cr>
+nnoremap <c-s-j> :action MoveTabDown<cr>
+nnoremap <c-s-k> :action MoveEditorToOppositeTabGroup<cr>
+nnoremap <c-s-l> :action MoveTabRight<cr>
 
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
