@@ -43,6 +43,11 @@ nnoremap <c-s-j> :action MoveTabDown<cr>
 nnoremap <c-s-k> :action MoveEditorToOppositeTabGroup<cr>
 nnoremap <c-s-l> :action MoveTabRight<cr>
 
+nnoremap - :action StretchSplitToBottom<cr>
+nnoremap = :action StretchSplitToTop<cr>
+nnoremap _ :action StretchSplitToLeft<cr>
+nnoremap + :action StretchSplitToRight<cr>
+
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
 nnoremap <leader>ab :action ActivateBookmarksToolWindow<cr>
