@@ -23,7 +23,7 @@ sethandler <c-n> a:vim
 sethandler <c-p> a:vim
 sethandler <c-u> a:vim
 sethandler <c-v> a:ide
-sethandler <c-w> a:ide
+sethandler <c-w> a:vim
 sethandler <c-x> a:ide
 
 " remap
