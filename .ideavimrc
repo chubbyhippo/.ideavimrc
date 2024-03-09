@@ -48,6 +48,7 @@ nnoremap = :action StretchSplitToTop<cr>
 nnoremap _ :action StretchSplitToLeft<cr>
 nnoremap + :action StretchSplitToRight<cr>
 
+nnoremap <Space>ev :edit ~/.ideavimrc<cr>
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
 nnoremap <leader>ab :action ActivateBookmarksToolWindow<cr>
