@@ -11,6 +11,7 @@ set notimeout
 set multiple-cursors
 set NERDTree
 set quickscope
+set surround
 
 " sethandler
 sethandler <c-a> a:ide
