@@ -6,7 +6,10 @@ set ignorecase
 set smartcase
 set which-key
 set notimeout
+
+" plugins
 set quickscope
+set multiple-cursors
 
 " sethandler
 sethandler <c-a> a:ide
@@ -105,5 +108,4 @@ nnoremap <tab> :action NextTab<cr>
 " plugins
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'justinmk/vim-sneak'
+
