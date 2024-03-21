@@ -108,5 +108,3 @@ nnoremap <tab> :action NextTab<cr>
 
 " plugins
 Plug 'tpope/vim-surround'
-Plug 'preservim/nerdtree'
-
