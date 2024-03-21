@@ -106,6 +106,3 @@ nnoremap <leader><leader> <c-^>
 
 nnoremap <s-tab> :action PreviousTab<cr>
 nnoremap <tab> :action NextTab<cr>
-
-" plugins
-Plug 'tpope/vim-surround'
