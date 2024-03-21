@@ -29,7 +29,7 @@ sethandler <c-p> a:vim
 sethandler <c-u> a:vim
 sethandler <c-v> a:ide
 sethandler <c-w> a:vim
-sethandler <c-x> a:ide
+sethandler <c-x> a:vim
 
 " remap
 let mapleader=" "
