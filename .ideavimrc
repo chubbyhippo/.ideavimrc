@@ -8,8 +8,9 @@ set which-key
 set notimeout
 
 " plugins
-set quickscope
 set multiple-cursors
+set NERDTree
+set quickscope
 
 " sethandler
 sethandler <c-a> a:ide
