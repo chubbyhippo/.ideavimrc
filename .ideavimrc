@@ -27,7 +27,7 @@ sethandler <c-l> a:vim
 sethandler <c-n> a:vim
 sethandler <c-p> a:vim
 sethandler <c-u> a:vim
-sethandler <c-v> a:ide
+sethandler <c-v> a:vim
 sethandler <c-w> a:vim
 sethandler <c-x> a:vim
 
