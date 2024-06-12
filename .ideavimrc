@@ -90,7 +90,7 @@ nnoremap <leader>o :action OverrideMethods<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>q :action QuickJavaDoc<cr>
 nnoremap <leader>ra :action RunnerActions<cr>
-nnoremap <leader>rc :action RunCoverage<cr>
+nnoremap <leader>rc :action Coverage<cr>
 noremap <leader>re :action Refactorings.QuickListPopupAction<cr>
 noremap <leader>rf :action Refactorings.QuickListPopupAction<cr>
 nnoremap <leader>ri :action Inline<cr>
