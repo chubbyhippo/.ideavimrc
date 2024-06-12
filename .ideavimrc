@@ -63,7 +63,6 @@ nnoremap <leader>aC :action ActivateCoverageToolWindow<cr>
 nnoremap <leader>ad :action ActivateDebugToolWindow<cr>
 nnoremap <leader>ag :action ActivateGradleToolWindow<cr>
 nnoremap <leader>am :action ActivateMavenToolWindow<cr>
-nnoremap <leader>an :action ActivateNavBar<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
 nnoremap <leader>ar :action ActivateRunToolWindow<cr>
 nnoremap <leader>as :action ActivateStructureToolWindow<cr>
