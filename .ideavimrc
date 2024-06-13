@@ -65,6 +65,7 @@ nnoremap <leader>ad :action ActivateDebugToolWindow<cr>
 nnoremap <leader>af :action ActivateFindToolWindow<cr>
 nnoremap <leader>ag :action ActivateGradleToolWindow<cr>
 nnoremap <leader>ah :action ActivateHierarchyToolWindow<cr>
+nnoremap <leader>ai :action ActivateAIAssistantToolWindow<cr>
 nnoremap <leader>am :action ActivateMavenToolWindow<cr>
 nnoremap <leader>an :action ActivateNotificationsToolWindow<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
