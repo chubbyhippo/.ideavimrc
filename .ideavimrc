@@ -69,6 +69,7 @@ nnoremap <leader>an :action ActivateNotificationsToolWindow<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
 nnoremap <leader>ar :action ActivateRunToolWindow<cr>
 nnoremap <leader>as :action ActivateStructureToolWindow<cr>
+nnoremap <leader>aS :action ActivateServicesToolWindow<cr>
 nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
 nnoremap <leader>ca :action CollapseAllRegions<cr>
