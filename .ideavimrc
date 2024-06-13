@@ -68,6 +68,7 @@ nnoremap <leader>ah :action ActivateHierarchyToolWindow<cr>
 nnoremap <leader>am :action ActivateMavenToolWindow<cr>
 nnoremap <leader>an :action ActivateNotificationsToolWindow<cr>
 nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
+nnoremap <leader>aP :action ActivateProblemsViewToolWindow<cr>
 nnoremap <leader>ar :action ActivateRunToolWindow<cr>
 nnoremap <leader>as :action ActivateStructureToolWindow<cr>
 nnoremap <leader>aS :action ActivateServicesToolWindow<cr>
