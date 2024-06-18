@@ -107,6 +107,7 @@ nnoremap <leader>rn :action RenameElement<cr>
 nnoremap <leader>rr :action ContextRun<cr>
 nnoremap <leader>ru :action ContextRun<cr>
 nnoremap <leader>se :action ShowErrorDescription<cr>
+nnoremap <leader>sf :action GotoFile<cr>
 nnoremap <leader>si :action ShowIntentionActions<cr>
 nnoremap <leader>st :action Stop<cr>
 nnoremap <leader>su :action ShowUsages<cr>
