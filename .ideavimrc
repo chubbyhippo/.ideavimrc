@@ -117,6 +117,7 @@ nnoremap <leader>su :action ShowUsages<cr>
 nnoremap <leader>sw :action TextSearchAction<cr>
 noremap <leader>sW :action SurroundWith<cr>
 nnoremap <leader>t :action ToggleLineBreakpoint<cr>
+noremap <leader>uw :action Unwrap<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
 nnoremap <leader><leader> <c-^>
 
