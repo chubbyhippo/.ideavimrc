@@ -95,7 +95,7 @@ nnoremap <leader>il :action Inline<cr>
 nnoremap <leader>in :action Inline<cr>
 nnoremap <leader>ip :action IntroduceParameter<cr>
 nnoremap <leader>iv :action IntroduceVariable<cr>
-nnoremap <leader>o :action OverrideMethods<cr>
+nnoremap <leader>om :action OverrideMethods<cr>
 nnoremap <leader>p :action ParameterInfo<cr>
 nnoremap <leader>qj :action QuickJavaDoc<cr>
 nnoremap <leader>qi :action QuickImplementations<cr>
