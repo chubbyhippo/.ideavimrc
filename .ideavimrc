@@ -114,6 +114,7 @@ noremap <leader>sp :action ShowPopupMenu<cr>
 nnoremap <leader>st :action TextSearchAction<cr>
 nnoremap <leader>sT :action Stop<cr>
 nnoremap <leader>su :action ShowUsages<cr>
+nnoremap <leader>sw :action TextSearchAction<cr>
 noremap <leader>sW :action SurroundWith<cr>
 nnoremap <leader>t :action ToggleLineBreakpoint<cr>
 nnoremap <leader><cr> :action ShowIntentionActions<cr>
