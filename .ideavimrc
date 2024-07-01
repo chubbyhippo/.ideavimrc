@@ -6,6 +6,7 @@ set ignorecase
 set smartcase
 set which-key
 set notimeout
+set vim-paragraph-motion
 set sneak
 
 " plugins
