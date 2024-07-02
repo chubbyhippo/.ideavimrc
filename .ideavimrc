@@ -58,6 +58,7 @@ nnoremap + :action StretchSplitToRight<cr>
 nnoremap <Space>ev :edit ~/.ideavimrc<cr>
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
+nnoremap gi :action GotoImplementation<cr>
 nnoremap <leader>ab :action ActivateBookmarksToolWindow<cr>
 nnoremap <leader>aB :action ActivateBuildToolWindow<cr>
 nnoremap <leader>ac :action ActivateCommitToolWindow<cr>
