@@ -59,6 +59,7 @@ nnoremap <Space>ev :edit ~/.ideavimrc<cr>
 nnoremap <Space>sv :source ~/.ideavimrc<cr>
 
 nnoremap gi :action GotoImplementation<cr>
+nnoremap qj :action QuickJavaDoc<cr>
 nnoremap gt :action GotoTest<cr>
 nnoremap <leader>ab :action ActivateBookmarksToolWindow<cr>
 nnoremap <leader>aB :action ActivateBuildToolWindow<cr>
