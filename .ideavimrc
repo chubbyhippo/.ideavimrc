@@ -130,7 +130,7 @@ map <leader>sW <action>(SurroundWith)
 map <leader>t <action>(ToggleLineBreakpoint)
 map <leader>uw <action>(Unwrap)
 map <leader>w <action>(SurroundWith)
-map <leader>)<action>(ShowIntentionActions)
+map <leader><cr> <action>(ShowIntentionActions)
 map <leader><leader> <c-^>
 
 map <s-tab> <action>(PreviousTab)
