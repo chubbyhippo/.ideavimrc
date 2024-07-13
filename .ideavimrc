@@ -39,105 +39,110 @@ sethandler <c-x> a:vim
 let mapleader=" "
 
 imap jj <Esc>
-nnoremap n nzzzv
-nnoremap N Nzzzv
-nnoremap <c-d> <c-d>zz
-nnoremap <c-u> <c-u>zz
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
-nnoremap <c-k> <c-w>k
-nnoremap <c-j> <c-w>j
-nnoremap <c-s-h> :action MoveEditorToOppositeTabGroup<cr>
-nnoremap <c-s-j> :action MoveTabDown<cr>
-nnoremap <c-s-k> :action MoveEditorToOppositeTabGroup<cr>
-nnoremap <c-s-l> :action MoveTabRight<cr>
+map n nzzzv
+map N Nzzzv
+map <c-d> <c-d>zz
+map <c-u> <c-u>zz
+map <c-h> <c-w>h
+map <c-l> <c-w>l
+map <c-k> <c-w>k
+map <c-j> <c-w>j
+map <c-s-h> <action>(MoveEditorToOppositeTabGroup)
+map <c-s-j> <action>(MoveTabDown)
+map <c-s-k> <action>(MoveEditorToOppositeTabGroup)
+map <c-s-l> <action>(MoveTabRight)
 
-nnoremap - :action StretchSplitToBottom<cr>
-nnoremap = :action StretchSplitToTop<cr>
-nnoremap _ :action StretchSplitToLeft<cr>
-nnoremap + :action StretchSplitToRight<cr>
+map - <action>(StretchSplitToBottom)
+map = <action>(StretchSplitToTop)
+map _ <action>(StretchSplitToLeft)
+map + <action>(StretchSplitToRight)
 
-nnoremap <Space>ev :edit ~/.ideavimrc<cr>
-nnoremap <Space>sv :source ~/.ideavimrc<cr>
+map <Space>ev :edit ~/.ideavimrc<cr>
+map <Space>sv :source ~/.ideavimrc<cr>
 
-nnoremap gi :action GotoImplementation<cr>
-nnoremap qj :action QuickJavaDoc<cr>
-nnoremap gs :action GotoSuperMethod<cr>
-nnoremap gt :action GotoTest<cr>
-nnoremap <leader>ab :action ActivateBookmarksToolWindow<cr>
-nnoremap <leader>aB :action ActivateBuildToolWindow<cr>
-nnoremap <leader>ac :action ActivateCommitToolWindow<cr>
-nnoremap <leader>aC :action ActivateCoverageToolWindow<cr>
-nnoremap <leader>ad :action ActivateDebugToolWindow<cr>
-nnoremap <leader>af :action ActivateFindToolWindow<cr>
-nnoremap <leader>ag :action ActivateGradleToolWindow<cr>
-nnoremap <leader>ah :action ActivateHierarchyToolWindow<cr>
-nnoremap <leader>ai :action ActivateAIAssistantToolWindow<cr>
-nnoremap <leader>am :action ActivateMavenToolWindow<cr>
-nnoremap <leader>an :action ActivateNotificationsToolWindow<cr>
-nnoremap <leader>ap :action ActivateProjectToolWindow<cr>
-nnoremap <leader>aP :action ActivateProblemsViewToolWindow<cr>
-nnoremap <leader>ar :action ActivateRunToolWindow<cr>
-nnoremap <leader>as :action ActivateStructureToolWindow<cr>
-nnoremap <leader>aS :action ActivateServicesToolWindow<cr>
-nnoremap <leader>at :action ActivateTerminalToolWindow<cr>
-nnoremap <leader>av :action ActivateVersionControlToolWindow<cr>
-nnoremap <leader>ca :action CollapseAllRegions<cr>
-nnoremap <leader>ch :action CallHierarchy<cr>
-nnoremap <leader>cr :action CollapseRegion<cr>
-nnoremap <leader>d :action Debug<cr>
-nnoremap <leader>ea :action ExpandAllRegions<cr>
-nnoremap <leader>ei :action ExtractInterface<cr>
-nnoremap <leader>er :action ExpandRegion<cr>
-noremap <leader>fo :action ReformatCode<cr>
-noremap <leader>fu :action FindUsages<cr>
-nnoremap <leader>gg :action Generate<cr>
-nnoremap <leader>ge :action Generate<cr>
-nnoremap <leader>gi :action GotoImplementation<cr>
-nnoremap <leader>gs :action GotoSuperMethod<cr>
-nnoremap <leader>gt :action GotoTest<cr>
-nnoremap <leader>h :action HideAllWindows<cr>
-nnoremap <leader>il :action Inline<cr>
-nnoremap <leader>in :action Inline<cr>
-nnoremap <leader>ip :action IntroduceParameter<cr>
-nnoremap <leader>iv :action IntroduceVariable<cr>
-nnoremap <leader>om :action OverrideMethods<cr>
-nnoremap <leader>or :action RecentProjectListGroup<cr>
-nnoremap <leader>p :action ParameterInfo<cr>
-nnoremap <leader>qj :action QuickJavaDoc<cr>
-nnoremap <leader>qi :action QuickImplementations<cr>
-nnoremap <leader>ra :action RunnerActions<cr>
-nnoremap <leader>rc :action Coverage<cr>
-noremap <leader>re :action Refactorings.QuickListPopupAction<cr>
-noremap <leader>rf :action Refactorings.QuickListPopupAction<cr>
-nnoremap <leader>ri :action Inline<cr>
-nnoremap <leader>rm :action RunMenu<cr>
-nnoremap <leader>rn :action RenameElement<cr>
-nnoremap <leader>rr :action ContextRun<cr>
-nnoremap <leader>ru :action ContextRun<cr>
-nnoremap <leader>sa :action GotoAction<cr>
-nnoremap <leader>se :action ShowErrorDescription<cr>
-nnoremap <leader>sf :action GotoFile<cr>
-nnoremap <leader>si :action ShowIntentionActions<cr>
-noremap <leader>sp :action ShowPopupMenu<cr>
-nnoremap <leader>sr :action RecentFiles<cr>
-nnoremap <leader>st :action TextSearchAction<cr>
-nnoremap <leader>sT :action Stop<cr>
-nnoremap <leader>su :action ShowUsages<cr>
-nnoremap <leader>sw :action TextSearchAction<cr>
-noremap <leader>sW :action SurroundWith<cr>
-nnoremap <leader>t :action ToggleLineBreakpoint<cr>
-noremap <leader>uw :action Unwrap<cr>
-noremap <leader>w :action SurroundWith<cr>
-nnoremap <leader><cr> :action ShowIntentionActions<cr>
-nnoremap <leader><leader> <c-^>
+map gi <action>(GotoImplementation)
+map qj <action>(QuickJavaDoc)
+map gs <action>(GotoSuperMethod)
+map gt <action>(GotoTest)
+map <leader>ab <action>(ActivateBookmarksToolWindow)
+map <leader>aB <action>(ActivateBuildToolWindow)
+map <leader>ac <action>(ActivateCommitToolWindow)
+map <leader>aC <action>(ActivateCoverageToolWindow)
+map <leader>ad <action>(ActivateDebugToolWindow)
+map <leader>af <action>(ActivateFindToolWindow)
+map <leader>ag <action>(ActivateGradleToolWindow)
+map <leader>ah <action>(ActivateHierarchyToolWindow)
+map <leader>ai <action>(ActivateAIAssistantToolWindow)
+map <leader>am <action>(ActivateMavenToolWindow)
+map <leader>an <action>(ActivateNotificationsToolWindow)
+map <leader>ap <action>(ActivateProjectToolWindow)
+map <leader>aP <action>(ActivateProblemsViewToolWindow)
+map <leader>ar <action>(ActivateRunToolWindow)
+map <leader>as <action>(ActivateStructureToolWindow)
+map <leader>aS <action>(ActivateServicesToolWindow)
+map <leader>at <action>(ActivateTerminalToolWindow)
+map <leader>av <action>(ActivateVersionControlToolWindow)
+map <leader>ca <action>(CollapseAllRegions)
+map <leader>ch <action>(CallHierarchy)
+map <leader>cr <action>(CollapseRegion)
+map <leader>d <action>(Debug)
+map <leader>ea <action>(ExpandAllRegions)
+map <leader>ei <action>(ExtractInterface)
+map <leader>er <action>(ExpandRegion)
+map <leader>fo <action>(ReformatCode)
+map <leader>fu <action>(FindUsages)
+map <leader>gg <action>(Generate)
+map <leader>ge <action>(Generate)
+map <leader>gi <action>(GotoImplementation)
+map <leader>gs <action>(GotoSuperMethod)
+map <leader>gt <action>(GotoTest)
+map <leader>h <action>(HideAllWindows)
+map <leader>il <action>(Inline)
+map <leader>in <action>(Inline)
+map <leader>ip <action>(IntroduceParameter)
+map <leader>iv <action>(IntroduceVariable)
+map <leader>om <action>(OverrideMethods)
+map <leader>or <action>(RecentProjectListGroup)
+map <leader>p <action>(ParameterInfo)
+map <leader>qj <action>(QuickJavaDoc)
+map <leader>qi <action>(QuickImplementations)
+map <leader>ra <action>(RunnerActions)
+map <leader>rc <action>(Coverage)
+map <leader>re <action>(Refactorings.QuickListPopupAction)
+map <leader>rf <action>(Refactorings.QuickListPopupAction)
+map <leader>ri <action>(Inline)
+map <leader>rm <action>(RunMenu)
+map <leader>rn <action>(RenameElement)
+map <leader>rr <action>(ContextRun)
+map <leader>ru <action>(ContextRun)
+map <leader>sa <action>(GotoAction)
+map <leader>se <action>(ShowErrorDescription)
+map <leader>sf <action>(GotoFile)
+map <leader>si <action>(ShowIntentionActions)
+map <leader>sr <action>(RecentFiles)
+map <leader>sp <action>(ShowPopupMenu)
+map <leader>ss <action>(com.mituuz.fuzzier.Fuzzier)
+map <leader>st <action>(TextSearchAction)
+map <leader>sT <action>(Stop)
+map <leader>su <action>(ShowUsages)
+map <leader>sw <action>(TextSearchAction)
+map <leader>sW <action>(SurroundWith)
+map <leader>t <action>(ToggleLineBreakpoint)
+map <leader>uw <action>(Unwrap)
+map <leader>w <action>(SurroundWith)
+map <leader>)<action>(ShowIntentionActions)
+map <leader><leader> <c-^>
 
-nnoremap <s-tab> :action PreviousTab<cr>
-nnoremap <tab> :action NextTab<cr>
+map <s-tab> <action>(PreviousTab)
+map <tab> <action>(NextTab)
 
-nmap <C-n> <Plug>NextWholeOccurrence
+map <C-n> <Plug>NextWholeOccurrence
 xmap <C-n> <Plug>NextWholeOccurrence
-nmap g<C-n> <Plug>NextOccurrence
+map g<C-n> <Plug>NextOccurrence
 xmap g<C-n> <Plug>NextOccurrence
 xmap <C-x> <Plug>SkipOccurrence
 xmap <C-p> <Plug>RemoveOccurrence
+
+map <leader>pf <action>(com.mituuz.fuzzier.Fuzzier)
+map <leader>mf <action>(com.mituuz.fuzzier.FuzzyMover)
+map <leader>gf <action>(com.mituuz.fuzzier.FuzzierVCS)
