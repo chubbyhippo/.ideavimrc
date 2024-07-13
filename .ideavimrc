@@ -29,7 +29,7 @@ sethandler <c-k> a:ide
 sethandler <c-l> a:ide
 sethandler <c-n> a:vim
 sethandler <c-o> a:vim
-sethandler <c-p> n:ide
+sethandler <c-p> i:ide n:ide 
 sethandler <c-u> a:vim
 sethandler <c-v> a:vim
 sethandler <c-w> a:vim
