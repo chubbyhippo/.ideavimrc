@@ -142,5 +142,3 @@ map g<C-n> <Plug>NextOccurrence
 xmap g<C-n> <Plug>NextOccurrence
 xmap <C-x> <Plug>SkipOccurrence
 xmap <C-p> <Plug>RemoveOccurrence
-
-map <leader>pf <action>(com.mituuz.fuzzier.Fuzzier)
