@@ -132,6 +132,7 @@ map <leader>sw <action>(TextSearchAction)
 map <leader>sW <action>(SurroundWith)
 map <leader>t <action>(ToggleLineBreakpoint)
 map <leader>uw <action>(Unwrap)
+map <leader>vl <action>(Vcs.Show.Log)
 map <leader>w <action>(SurroundWith)
 map <leader><cr> <action>(ShowIntentionActions)
 map <leader><leader> <c-^>
