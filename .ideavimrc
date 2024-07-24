@@ -139,6 +139,7 @@ map <leader>uw <action>(Unwrap)
 map <leader>vh <action>(Vcs.ShowTabbedFileHistory)
 map <leader>vl <action>(Vcs.Show.Log)
 map <leader>vp <action>(Git.Pull)
+map <leader>vP <action>(Vcs.Push)
 map <leader>w <action>(SurroundWith)
 map <leader><cr> <action>(ShowIntentionActions)
 map <leader><leader> <c-^>
