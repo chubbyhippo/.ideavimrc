@@ -13,7 +13,6 @@ set NERDTree
 set quickscope
 set surround
 
-" sethandler
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
 sethandler <c-c> a:ide
