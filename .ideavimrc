@@ -34,7 +34,6 @@ sethandler <c-v> a:vim
 sethandler <c-w> a:vim
 sethandler <c-x> a:vim
 
-" remap
 let mapleader=" "
 
 imap jj <Esc>
