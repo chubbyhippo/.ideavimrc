@@ -36,6 +36,7 @@ let mapleader=" "
 
 imap jj <Esc>
 imap <c-j> <down>
+imap <c-k> <up>
 map n nzzzv
 map N Nzzzv
 map <c-d> <c-d>zz
