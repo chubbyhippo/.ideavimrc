@@ -58,6 +58,8 @@ map + <action>(StretchSplitToRight)
 map <Space>ev :edit ~/.ideavimrc<cr>
 map <Space>sv :source ~/.ideavimrc<cr>
 
+map ] <action>(GotoNextError)
+
 map gi <action>(GotoImplementation)
 map qj <action>(QuickJavaDoc)
 map gs <action>(GotoSuperMethod)
