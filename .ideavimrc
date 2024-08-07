@@ -12,6 +12,7 @@ set multiple-cursors
 set NERDTree
 set quickscope
 set surround
+set matchit
 
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
