@@ -155,6 +155,7 @@ map <s-tab> <action>(PreviousTab)
 map <tab> <action>(NextTab)
 
 map H ^
+map L $
 
 map <C-n> <Plug>NextWholeOccurrence
 xmap <C-n> <Plug>NextWholeOccurrence
