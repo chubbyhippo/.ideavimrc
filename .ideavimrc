@@ -156,6 +156,7 @@ map <tab> <action>(NextTab)
 
 map H ^
 map L $
+map J }
 
 map <C-n> <Plug>NextWholeOccurrence
 xmap <C-n> <Plug>NextWholeOccurrence
