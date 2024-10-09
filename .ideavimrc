@@ -57,7 +57,7 @@ map _ <action>(StretchSplitToLeft)
 map + <action>(StretchSplitToRight)
 
 map <Space>eV :edit ~/.ideavimrc<cr>
-map <Space>sv :source ~/.ideavimrc<cr>
+map <Space>sV :source ~/.ideavimrc<cr>
 
 map ] <action>(GotoNextError)
 map [ <action>(GotoPreviousError)
