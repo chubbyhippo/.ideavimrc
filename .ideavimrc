@@ -4,8 +4,11 @@ set relativenumber
 set visualbell
 set ignorecase
 set smartcase
+
 set which-key
 set notimeout
+let g:WhichKeyDesc_activate = "<leader>a Activate..."
+
 set vim-paragraph-motion
 set sneak
 set multiple-cursors
