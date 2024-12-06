@@ -17,6 +17,7 @@ let g:WhichKeyDesc_l = "<leader>l LocalHistory..."
 let g:WhichKeyDesc_n = "<leader>n New..."
 let g:WhichKeyDesc_o = "<leader>o Open, Optimize, Override..."
 let g:WhichKeyDesc_q = "<leader>q QuickDoc..."
+let g:WhichKeyDesc_r = "<leader>r Refactorings, Run ..."
 
 set vim-paragraph-motion
 set sneak
