@@ -10,6 +10,7 @@ set notimeout
 let g:WhichKeyDesc_a = "<leader>a Activate..."
 let g:WhichKeyDesc_c = "<leader>c Call, Collapse, Change..."
 let g:WhichKeyDesc_e = "<leader>e Extract, Edit..."
+let g:WhichKeyDesc_f = "<leader>f Format, Find..."
 
 set vim-paragraph-motion
 set sneak
