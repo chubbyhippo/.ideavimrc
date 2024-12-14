@@ -83,6 +83,7 @@ map qj <action>(QuickJavaDoc)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
 
+map <leader>.k <action>(ChangeKeymap)
 map <leader>.p <action>(ShowProjectStructureSettings)
 map <leader>.P <action>(WelcomeScreen.Plugins)
 map <leader>.r <action>(editRunConfigurations)
