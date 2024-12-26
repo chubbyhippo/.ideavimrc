@@ -83,6 +83,7 @@ map qj <action>(QuickJavaDoc)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
 
+map <leader>.c <action>(ToggleCompactMode)
 map <leader>.k <action>(ChangeKeymap)
 map <leader>.l <action>(EditorToggleShowLineNumbers)
 map <leader>.p <action>(ShowProjectStructureSettings)
