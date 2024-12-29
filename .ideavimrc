@@ -78,6 +78,7 @@ map <Space>sV :source ~/.ideavimrc<cr>
 
 map ] <action>(GotoNextError)
 map [ <action>(GotoPreviousError)
+map } <action>(PreviousDiff)
 map gi <action>(GotoImplementation)
 map qj <action>(QuickJavaDoc)
 map gs <action>(GotoSuperMethod)
