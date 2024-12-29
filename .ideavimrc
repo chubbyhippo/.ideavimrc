@@ -219,7 +219,7 @@ map <tab> <action>(NextTab)
 map H ^
 map L $
 noremap J }
-map K {
+noremap K {
 
 map <C-n> <Plug>NextWholeOccurrence
 xmap <C-n> <Plug>NextWholeOccurrence
