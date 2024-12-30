@@ -65,6 +65,7 @@ map n nzzzv
 map N Nzzzv
 map <c-d> <c-d>zz
 map <c-u> <c-u>zz
+
 map <c-h> <c-w>h
 map <c-l> <c-w>l
 map <c-k> <c-w>k
