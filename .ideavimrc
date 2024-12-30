@@ -74,6 +74,7 @@ map <c-s-h> <action>(MoveEditorToOppositeTabGroup)
 map <c-s-j> :sp<cr>
 map <c-s-k> <action>(MoveEditorToOppositeTabGroup)
 map <c-s-l> :vs<cr>
+map <c-s-q> :q<cr>
 
 map - <action>(StretchSplitToBottom)
 map = <action>(StretchSplitToTop)
