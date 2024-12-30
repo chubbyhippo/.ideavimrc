@@ -1,9 +1,15 @@
+set NERDTree
 set clipboard+=unnamedplus
-set number
-set relativenumber
-set visualbell
 set ignorecase
+set matchit
+set number
+set quickscope
+set relativenumber
 set smartcase
+set sneak
+set surround
+set vim-paragraph-motion
+set visualbell
 
 set which-key
 set notimeout
@@ -22,13 +28,13 @@ let g:WhichKeyDesc_r = "<leader>r Refactorings, Run ..."
 let g:WhichKeyDesc_s = "<leader>s Search, Stop, Show, Surround, Source..."
 let g:WhichKeyDesc_v = "<leader>v Vcs..."
 
-set vim-paragraph-motion
-set sneak
 set multiple-cursors
-set NERDTree
-set quickscope
-set surround
-set matchit
+map <C-n> <Plug>NextWholeOccurrence
+xmap <C-n> <Plug>NextWholeOccurrence
+map g<C-n> <Plug>NextOccurrence
+xmap g<C-n> <Plug>NextOccurrence
+xmap <C-x> <Plug>SkipOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
 
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
@@ -222,10 +228,3 @@ map H ^
 map L $
 noremap J }
 noremap K {
-
-map <C-n> <Plug>NextWholeOccurrence
-xmap <C-n> <Plug>NextWholeOccurrence
-map g<C-n> <Plug>NextOccurrence
-xmap g<C-n> <Plug>NextOccurrence
-xmap <C-x> <Plug>SkipOccurrence
-xmap <C-p> <Plug>RemoveOccurrence
