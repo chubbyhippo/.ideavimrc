@@ -3,6 +3,7 @@ set clipboard+=unnamedplus
 set ignorecase
 set matchit
 set number
+set peekaboo
 set quickscope
 set relativenumber
 set smartcase
