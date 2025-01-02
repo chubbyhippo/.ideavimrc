@@ -36,6 +36,8 @@ map g<c-n> <Plug>NextOccurrence
 xmap g<c-n> <Plug>NextOccurrence
 xmap <c-x> <Plug>SkipOccurrence
 xmap <c-p> <Plug>RemoveOccurrence
+map <c-s-n> <Plug>AllWholeOccurrences
+xmap <c-s-n> <Plug>AllWholeOccurrences
 
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
