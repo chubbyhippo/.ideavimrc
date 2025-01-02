@@ -77,6 +77,7 @@ map <c-s-k> <action>(MoveEditorToOppositeTabGroup)
 map <c-s-l> :vs<cr>
 map <c-s-q> :q<cr>
 map <c-s-p> <action>(TogglePresentationAssistantAction)
+map <c-s-a-p> <action>(TogglePresentationAssistantAction)<action>(TogglePresentationMode)
 
 map - <action>(StretchSplitToBottom)
 map = <action>(StretchSplitToTop)
