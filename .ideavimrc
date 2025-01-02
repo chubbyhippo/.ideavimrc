@@ -1,5 +1,6 @@
 set NERDTree
 set clipboard+=unnamedplus
+set exchange
 set ignorecase
 set matchit
 set number
