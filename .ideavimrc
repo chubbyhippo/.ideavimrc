@@ -30,12 +30,12 @@ let g:WhichKeyDesc_s = "<leader>s Search, Stop, Show, Surround, Source..."
 let g:WhichKeyDesc_v = "<leader>v Vcs..."
 
 set multiple-cursors
-map <C-n> <Plug>NextWholeOccurrence
-xmap <C-n> <Plug>NextWholeOccurrence
-map g<C-n> <Plug>NextOccurrence
-xmap g<C-n> <Plug>NextOccurrence
-xmap <C-x> <Plug>SkipOccurrence
-xmap <C-p> <Plug>RemoveOccurrence
+map <c-n> <Plug>NextWholeOccurrence
+xmap <c-n> <Plug>NextWholeOccurrence
+map g<c-n> <Plug>NextOccurrence
+xmap g<c-n> <Plug>NextOccurrence
+xmap <c-x> <Plug>SkipOccurrence
+xmap <c-p> <Plug>RemoveOccurrence
 
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
