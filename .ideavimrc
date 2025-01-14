@@ -95,7 +95,6 @@ map [ <action>(GotoPreviousError)
 map } <action>(NextDiff)
 map { <action>(PreviousDiff)
 map gi <action>(GotoImplementation)
-map qj <action>(QuickJavaDoc)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
 
