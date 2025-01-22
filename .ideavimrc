@@ -290,3 +290,5 @@ map H ^
 map L $
 noremap J }
 noremap K {
+
+vmap ` S`
