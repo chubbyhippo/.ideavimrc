@@ -293,3 +293,4 @@ noremap K {
 
 vmap ` S`
 vmap ' S'
+vmap " S"
