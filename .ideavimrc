@@ -292,3 +292,4 @@ noremap J }
 noremap K {
 
 vmap ` S`
+vmap ' S'
