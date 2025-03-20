@@ -60,6 +60,7 @@ sethandler <c-u> a:vim
 sethandler <c-v> a:vim
 sethandler <c-w> a:vim
 sethandler <c-x> a:vim
+sethandler <c-[> a:vim
 
 let mapleader=" "
 
@@ -312,4 +313,3 @@ vmap [ S[
 vmap ] S[
 vmap { S{
 vmap } S}
-
