@@ -64,7 +64,6 @@ sethandler <c-[> a:vim
 
 let mapleader=" "
 
-imap jj <Esc>
 imap <c-j> <down>
 imap <c-k> <up>
 map n nzzzv
