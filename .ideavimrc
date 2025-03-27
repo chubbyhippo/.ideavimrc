@@ -29,6 +29,7 @@ let g:WhichKeyDesc_r = "<leader>r Refactorings, Run ..."
 let g:WhichKeyDesc_s = "<leader>s Search, Stop, Show, Surround, Source..."
 let g:WhichKeyDesc_t = "<leader>t Toggle..."
 let g:WhichKeyDesc_v = "<leader>v Vcs..."
+let g:WhichKeyDesc_commentray_prefix = "j"
 
 set multiple-cursors
 map <c-n> <Plug>NextWholeOccurrence
