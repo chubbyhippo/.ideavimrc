@@ -297,6 +297,8 @@ map <leader><cr> <action>(ShowIntentionActions)
 map <leader><leader> <c-^>
 map <leader>/ <action>(CommentByLineComment)
 
+map <leader>C <action>(Educational.Check)
+
 map <s-tab> <action>(PreviousTab)
 map <tab> <action>(NextTab)
 
