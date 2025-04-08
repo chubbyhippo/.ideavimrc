@@ -252,7 +252,7 @@ map <leader>ot <action>(Terminal.OpenInTerminal)
 map <leader>p <action>(ParameterInfo)
 map <leader>q :q<CR>
 map <leader>ra <action>(RunAnything)
-map <leader>ra <action>(RunnerActions)
+map <leader>rA <action>(RunnerActions)
 map <leader>rb <action>(ChangesView.Revert)
 map <leader>rc <action>(Coverage)
 map <leader>rC <action>(RunClass)
