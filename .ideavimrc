@@ -31,6 +31,7 @@ let g:WhichKeyDesc_t = "<leader>t Toggle..."
 let g:WhichKeyDesc_v = "<leader>v Vcs..."
 let g:WhichKeyDesc_commentray_prefix = "j"
 
+imap jj <Esc>
 set multiple-cursors
 map <c-n> <Plug>NextWholeOccurrence
 xmap <c-n> <Plug>NextWholeOccurrence
