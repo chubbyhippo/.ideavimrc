@@ -79,7 +79,7 @@ map <c-l> <c-w>l
 map <c-k> <c-w>k
 map <c-j> <c-w>j
 map <c-s-h> <action>(MoveEditorToOppositeTabGroup)
-map <c-s-j> :sp<cr>
+rap <c-s-j> <action>(MoveTabDown)
 map <c-s-k> <action>(MoveEditorToOppositeTabGroup)
 map <c-s-l> :vs<cr>
 map <c-s-q> :q<cr>
