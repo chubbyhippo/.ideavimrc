@@ -12,6 +12,7 @@ set relativenumber
 set smartcase
 set sneak
 set surround
+set textobj-entire
 set vim-paragraph-motion
 set visualbell
 
