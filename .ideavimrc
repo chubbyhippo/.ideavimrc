@@ -4,6 +4,7 @@ set exchange
 set functiontextobj
 set ignorecase
 set matchit
+set mini-ai
 set number
 set peekaboo
 set quickscope
