@@ -254,6 +254,7 @@ map <leader>or <action>(RecentProjectListGroup)
 map <leader>ot <action>(Terminal.OpenInTerminal)
 map <leader>p <action>(ParameterInfo)
 map <leader>q :q<CR>
+map <leader>Q <action>(CloseAllUnpinnedEditors)
 map <leader>ra <action>(RunAnything)
 map <leader>rA <action>(RunnerActions)
 map <leader>rb <action>(Vcs.RollbackChangedLines)
