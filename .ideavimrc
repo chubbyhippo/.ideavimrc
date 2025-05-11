@@ -252,7 +252,7 @@ map <leader>om <action>(OverrideMethods)
 map <leader>op <action>(OpenFile)
 map <leader>or <action>(RecentProjectListGroup)
 map <leader>ot <action>(Terminal.OpenInTerminal)
-map <leader>p <action>(ParameterInfo)
+map <leader>p <action>(PinActiveTabToggle)
 map <leader>q :q<CR>
 map <leader>Q <action>(CloseAllUnpinnedEditors)
 map <leader>ra <action>(RunAnything)
