@@ -294,6 +294,7 @@ map <leader>su <action>(ShowUsages)
 map <leader>sw <action>(TextSearchAction)
 map <leader>sW <action>(SurroundWith)
 map <leader>tb <action>(ToggleLineBreakpoint)
+map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
 map <leader>u <action>(Unwrap)
 map <leader>vh <action>(Vcs.ShowTabbedFileHistory)
