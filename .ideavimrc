@@ -302,6 +302,7 @@ map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
 map <leader>tl :tabm<Space>+<CR>
 map <leader>tn <action>(Educational.NextTask)
+map <leader>tr <action>(Educational.RefreshTask)
 map <leader>u <action>(Unwrap)
 map <leader>vh <action>(Vcs.ShowTabbedFileHistory)
 map <leader>vl <action>(Vcs.Show.Log)
