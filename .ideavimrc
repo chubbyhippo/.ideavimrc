@@ -160,6 +160,7 @@ map 'z 'Z
 
 map <leader>.c <action>(ToggleCompactMode)
 map <leader>.d <action>(ToggleDistractionFreeMode)
+map <leader>.f <action>(ToggleFullScreen)
 map <leader>.k <action>(ChangeKeymap)
 map <leader>.l <action>(EditorToggleShowLineNumbers)
 map <leader>.m <action>(ExternalSystem.ProjectRefreshAction)
