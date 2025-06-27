@@ -289,6 +289,7 @@ map <leader>sH <action>(Vcs.ShowTabbedFileHistory)
 map <leader>si <action>(QuickImplementations)
 map <leader>sI <action>(ShowIntentionActions)
 map <leader>sk <action>(TogglePresentationAssistantAction)
+map <leader>si <action>(StepInto)
 
 map <leader>sp <action>(ParameterInfo)
 map <leader>sP <action>(ShowPopupMenu)
