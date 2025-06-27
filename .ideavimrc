@@ -257,6 +257,7 @@ map <leader>om <action>(OverrideMethods)
 map <leader>op <action>(OpenFile)
 map <leader>or <action>(RecentProjectListGroup)
 map <leader>ot <action>(Terminal.OpenInTerminal)
+map <leader>pd <action>(QuickJavaDoc)
 map <leader>pt <action>(PinActiveTabToggle)
 map <leader>q :q<CR>
 map <leader>ra <action>(RunAnything)
