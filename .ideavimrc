@@ -309,7 +309,6 @@ map <leader>sT <action>(Stop)
 map <leader>su <action>(ShowUsages)
 map <leader>sw <action>(SurroundWith)
 map <leader>tb <action>(ToggleLineBreakpoint)
-map <leader>tc <action>(Educational.Check)
 map <leader>tf <action>(ToggleFullScreen)
 map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
