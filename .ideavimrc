@@ -314,7 +314,6 @@ map <leader>tf <action>(ToggleFullScreen)
 map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
 map <leader>tl :tabm<Space>+<CR>
-map <leader>tn <action>(Educational.NextTask)
 map <leader>tr <action>(Educational.RefreshTask)
 map <leader>up <action>(PinActiveTabToggle)
 map <leader>uw <action>(Unwrap)
