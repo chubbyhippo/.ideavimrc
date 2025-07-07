@@ -316,6 +316,7 @@ map <leader>tf <action>(ToggleFullScreen)
 map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
 map <leader>tl :tabm<Space>+<CR>
+map <leader>tt <action>(ViewToolButtons)
 map <leader>up <action>(PinActiveTabToggle)
 map <leader>uw <action>(Unwrap)
 map <leader>vh <action>(Vcs.ShowTabbedFileHistory)
