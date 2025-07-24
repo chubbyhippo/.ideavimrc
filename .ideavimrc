@@ -60,7 +60,7 @@ sethandler <c-k> n:vim
 sethandler <c-l> n:vim
 sethandler <c-n> n:vim
 sethandler <c-o> a:vim
-sethandler <c-p> a:ide
+sethandler <c-p> n:vim
 sethandler <c-r> a:vim
 sethandler <c-u> a:vim
 sethandler <c-v> a:vim
