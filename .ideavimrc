@@ -49,7 +49,7 @@ xmap <c-s-n> <Plug>AllWholeOccurrences
 
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
-sethandler <c-c> a:ide
+sethandler <c-c> i-v:vim
 sethandler <c-d> a:vim
 sethandler <c-e> a:ide
 sethandler <c-f> a:ide
