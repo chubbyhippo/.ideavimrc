@@ -97,6 +97,8 @@ map + <action>(StretchSplitToRight)
 map <Space>eV :edit ~/.ideavimrc<cr>
 map <Space>sV :source ~/.ideavimrc<cr>
 
+map ]e <action>(GotoNextError)
+
 map gi <action>(GotoImplementation)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
