@@ -100,7 +100,6 @@ map <Space>sV :source ~/.ideavimrc<cr>
 map ] <action>(GotoNextError)
 map [ <action>(GotoPreviousError)
 map ) <action>(NextDiff)
-map ( <action>(PreviousDiff)
 map gi <action>(GotoImplementation)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
