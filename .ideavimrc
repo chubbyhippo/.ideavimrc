@@ -99,10 +99,10 @@ map <Space>sV :source ~/.ideavimrc<cr>
 
 map ]c <action>(VcsShowNextChangeMarker)
 map [c <action>(VcsShowPrevChangeMarker)
-map ]e <action>(GotoNextError)
-map [e <action>(GotoPreviousError)
 map ]d <action>(NextDiff)
 map [d <action>(PreviousDiff)
+map ]e <action>(GotoNextError)
+map [e <action>(GotoPreviousError)
 map gi <action>(GotoImplementation)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
