@@ -97,12 +97,12 @@ map + <action>(StretchSplitToRight)
 map <Space>eV :edit ~/.ideavimrc<cr>
 map <Space>sV :source ~/.ideavimrc<cr>
 
+map ]c <action>(VcsShowNextChangeMarker)
+map [c <action>(VcsShowPrevChangeMarker)
 map ]e <action>(GotoNextError)
 map [e <action>(GotoPreviousError)
 map ]d <action>(NextDiff)
 map [d <action>(PreviousDiff)
-map ]c <action>(VcsShowNextChangeMarker)
-map [c <action>(VcsShowPrevChangeMarker)
 map gi <action>(GotoImplementation)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
