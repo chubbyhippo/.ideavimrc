@@ -273,6 +273,7 @@ map <leader>ph <action>(ShowHoverInfo)
 map <leader>pi <action>(QuickImplementations)
 map <leader>pm <action>(ShowPopupMenu)
 map <leader>pp <action>(ParameterInfo)
+map <leader>pr <action>(RunConfiguration)
 map <leader>pt <action>(PinActiveTabToggle)
 map <leader>q :q<CR>
 map <leader>R <action>(Educational.RefreshTask)
