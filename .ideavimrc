@@ -201,6 +201,7 @@ map <leader>ck <action>(ChangeKeymap)
 map <leader>ch <action>(CallHierarchy)
 map <leader>co <action>(CloseAllEditorsButActive)
 map <leader>cp <action>(WelcomeScreen.Plugins)
+map <leader>cs <action>(SettingsEntryPoint)
 map <leader>cr <action>(CollapseRegion)
 map <leader>cv :edit ~/.ideavimrc<cr>
 map <leader>db <action>(Debug)
