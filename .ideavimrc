@@ -107,6 +107,7 @@ map [e <action>(GotoPreviousError)
 map gi <action>(GotoImplementation)
 map gs <action>(GotoSuperMethod)
 map gt <action>(GotoTest)
+map gT <action>(GotoTest)
 
 map ma mA
 map mb mB
