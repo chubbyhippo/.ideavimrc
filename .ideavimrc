@@ -359,8 +359,6 @@ map <s-tab> <action>(PreviousTab)
 map <tab> <action>(NextTab)
 
 map H ^
-map L $
-
 vmap ` S`
 vmap ' S'
 vmap " S"
