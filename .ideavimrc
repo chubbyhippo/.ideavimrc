@@ -3,6 +3,7 @@ set argtextobj
 set clipboard+=unnamedplus
 set exchange
 set functiontextobj
+set ideajoin
 set ignorecase
 set matchit
 set mini-ai
