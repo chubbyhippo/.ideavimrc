@@ -360,8 +360,6 @@ map <tab> <action>(NextTab)
 map H ^
 map L $
 
-noremap K {
-
 vmap ` S`
 vmap ' S'
 vmap " S"
