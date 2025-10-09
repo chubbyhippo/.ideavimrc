@@ -1,6 +1,5 @@
 set NERDTree
 set clipboard+=unnamedplus
-set exchange
 set functiontextobj
 set ideajoin
 set ignorecase
