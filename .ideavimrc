@@ -4,7 +4,6 @@ set exchange
 set functiontextobj
 set ideajoin
 set ignorecase
-set matchit
 set mini-ai
 set number
 set peekaboo
