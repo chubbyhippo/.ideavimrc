@@ -1,5 +1,4 @@
 set NERDTree
-set argtextobj
 set clipboard+=unnamedplus
 set exchange
 set functiontextobj
