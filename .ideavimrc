@@ -9,7 +9,6 @@ set relativenumber
 set smartcase
 set sneak
 set surround
-set vim-paragraph-motion
 set visualbell
 
 set which-key
