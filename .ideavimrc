@@ -156,7 +156,7 @@ map 'y 'Y
 map 'z 'Z
 
 map <leader>.C <action>(ToggleCompactMode)
-map <leader>.C <action>(CloseProject)
+map <leader>.c <action>(CloseProject)
 map <leader>.d <action>(ToggleDistractionFreeMode)
 map <leader>.f <action>(ToggleFullScreen)
 map <leader>.k <action>(ChangeKeymap)
