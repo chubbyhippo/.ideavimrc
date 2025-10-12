@@ -1,6 +1,7 @@
 set NERDTree
 set clipboard+=unnamedplus
 set ideajoin
+set ideamarks
 set ignorecase
 set number
 set peekaboo
