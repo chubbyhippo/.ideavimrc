@@ -255,7 +255,6 @@ map <leader>k <action>(ChangeKeymap)
 map <leader>lh <action>(LocalHistory.ShowHistory)
 map <leader>lH <action>(LocalHistory.ShowSelectionHistory)
 
-map <leader>mo <action>(Move)
 map <leader>N <action>(Educational.NextTask)
 map <leader>nd <action>(NewDir)
 map <leader>ne <action>(NewElement)
