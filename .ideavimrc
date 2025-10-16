@@ -278,7 +278,6 @@ map <leader>pp <action>(ParameterInfo)
 map <leader>pr <action>(RunConfiguration)
 map <leader>pt <action>(PinActiveTabToggle)
 map <leader>q :q<CR>
-map <leader>R <action>(Educational.RefreshTask)
 map <leader>ra <action>(RunAnything)
 map <leader>rA <action>(RunnerActions)
 map <leader>rb <action>(Vcs.RollbackChangedLines)
@@ -347,7 +346,7 @@ map <leader>/ <action>(CommentByLineComment)
 map <leader>C <action>(Educational.Check)
 map <leader>N <action>(Educational.NextTask)
 map <leader>P <action>(Educational.PreviousTask)
-
+map <leader>R <action>(Educational.RefreshTask)
 
 map <s-tab> <action>(PreviousTab)
 map <tab> <action>(NextTab)
