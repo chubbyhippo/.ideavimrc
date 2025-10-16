@@ -346,6 +346,8 @@ map <leader>/ <action>(CommentByLineComment)
 
 map <leader>C <action>(Educational.Check)
 map <leader>N <action>(Educational.NextTask)
+map <leader>P <action>(Educational.PreviousTask)
+
 
 map <s-tab> <action>(PreviousTab)
 map <tab> <action>(NextTab)
