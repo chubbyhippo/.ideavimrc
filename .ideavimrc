@@ -81,7 +81,6 @@ map <c-j> <c-w>j
 map <c-s-h> <action>(MoveEditorToOppositeTabGroup)
 rap <c-s-j> <action>(MoveTabDown)
 map <c-s-k> <action>(MoveEditorToOppositeTabGroup)
-map <c-s-l> <action>(MoveTabRight)
 
 map - <action>(StretchSplitToBottom)
 map = <action>(StretchSplitToTop)
