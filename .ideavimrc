@@ -417,6 +417,7 @@ map <leader>uw <action>(Unwrap)
 
 " <leader>v – VCS
 map <leader>vb <action>(ViewBreakpoints)
+map <leader>vc <action>(CheckinProject)
 map <leader>vh <action>(Vcs.ShowTabbedFileHistory)
 map <leader>vl <action>(Vcs.Show.Log)
 map <leader>vp <action>(Git.Pull)
