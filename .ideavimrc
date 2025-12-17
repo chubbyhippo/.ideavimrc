@@ -29,7 +29,7 @@ set notimeout
 " Which-Key group descriptions for leader prefixes
 let g:WhichKeyDesc_dot = "<leader>. Settings..."
 let g:WhichKeyDesc_a = "<leader>a Activate..."
-let g:WhichKeyDesc_c = "<leader>c Config, Call, Collapse, Change..."
+let g:WhichKeyDesc_c = "<leader>c Config, Call, Collapse, Clear, Change..."
 let g:WhichKeyDesc_e = "<leader>e Extract, Edit..."
 let g:WhichKeyDesc_f = "<leader>f Format, Find..."
 let g:WhichKeyDesc_g = "<leader>g Git, Generate, Goto..."
@@ -231,10 +231,11 @@ map <leader>b <action>(RecentFiles)
 " Education plugin helpers
 map <leader>C <action>(Educational.Check)
 
-" <leader>c – close / collapse / config
+" <leader>c – clear / close / collapse / config
 map <leader>ca <action>(CloseAllEditors)
 map <leader>ck <action>(ChangeKeymap)
 map <leader>ch <action>(CallHierarchy)
+map <leader>cn <action>(ClearAllNotifications)
 map <leader>co <action>(CloseAllEditorsButActive)
 map <leader>cp <action>(WelcomeScreen.Plugins)
 map <leader>cs <action>(SettingsEntryPoint)
