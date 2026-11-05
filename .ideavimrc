@@ -109,9 +109,6 @@ sethandler <C-A-e> a:vim
 " Space is the leader key
 let mapleader=" "
 
-" M-m behaves like <leader> (must be map, not noremap)
-map <A-m> <Space>
-
 imap <c-j> <down>
 
 map n nzzzv
