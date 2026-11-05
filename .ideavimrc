@@ -91,9 +91,13 @@ sethandler <A-BS> a:vim
 sethandler <A-S-,> a:vim
 sethandler <A-S-.> a:vim
 sethandler <A-S-5> a:vim
+sethandler <A-a> v:vim
 sethandler <A-b> a:vim
 sethandler <A-d> a:vim
+sethandler <A-e> v:vim
 sethandler <A-f> a:vim
+sethandler <A-n> a:vim
+sethandler <A-p> a:vim
 sethandler <A-r> a:vim
 sethandler <A-v> a:vim
 sethandler <A-w> a:vim
@@ -598,6 +602,19 @@ map <A-S-[> <Action>(EditorBackwardParagraph)
 imap <A-S-[> <Action>(EditorBackwardParagraph)
 map <A-S-]> <Action>(EditorForwardParagraph)
 imap <A-S-]> <Action>(EditorForwardParagraph)
+
+xnoremap <C-a> 0
+xnoremap <C-b> h
+xnoremap <C-e> $
+xnoremap <C-f> l
+xnoremap <C-n> j
+xnoremap <C-p> k
+xnoremap <A-a> (
+xnoremap <A-b> b
+xnoremap <A-e> )
+xnoremap <A-f> w
+xnoremap <A-n> j
+xnoremap <A-p> k
 
 map <C-A-a> <Action>(MethodUp)
 imap <C-A-a> <Action>(MethodUp)
