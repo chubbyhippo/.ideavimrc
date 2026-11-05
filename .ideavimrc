@@ -1,4 +1,4 @@
-" Enable NERDTree file explorer integration
+"p Enable NERDTree file explorer integration
 set NERDTree
 
 " Share system clipboard with IdeaVim
@@ -7,19 +7,17 @@ set clipboard+=unnamedplus
 " Use IDE-aware join behavior
 set ideajoin
 
-" Case-insensitive search by default...
+" Case-insensitive search by default
 set ignorecase
-" ...but become case-sensitive if the pattern contains uppercase letters
 set smartcase
 
-" Show absolute + relative line numbers
+" Show absolute and relativenumber line numbers
 set number
 set relativenumber
 
 " Enable various UX plugins
 set peekaboo          " Show registers on `"` / `@`
 set quickscope        " Highlight f/F/t/T targets
-set sneak             " Enhanced motion (s / S)
 set surround          " Text objects for surroundings like (), "", etc.
 set visualbell        " Use visual bell instead of audible
 
@@ -34,10 +32,12 @@ let g:WhichKeyDesc_e = "<leader>e Extract, Edit..."
 let g:WhichKeyDesc_f = "<leader>f Format, Find..."
 let g:WhichKeyDesc_g = "<leader>g Git, Generate, Goto..."
 let g:WhichKeyDesc_i = "<leader>i Inline, Introduce, Id..."
+let g:WhichKeyDesc_j = "<leader>j Jump, JavaDoc..."
 let g:WhichKeyDesc_l = "<leader>l LocalHistory..."
+let g:WhichKeyDesc_m = "<leader>m Mode..."
 let g:WhichKeyDesc_n = "<leader>n New..."
 let g:WhichKeyDesc_o = "<leader>o Open, Optimize, Override..."
-let g:WhichKeyDesc_p = "<leader>p Popup..."
+let g:WhichKeyDesc_p = "<leader>p Popup, Project..."
 let g:WhichKeyDesc_r = "<leader>r Refactorings, Run ..."
 let g:WhichKeyDesc_s = "<leader>s Search, Stop, Show, Surround, Source..."
 let g:WhichKeyDesc_t = "<leader>t Toggle..."
@@ -48,34 +48,19 @@ let g:WhichKeyDesc_commentray_prefix = "j"
 " Insert mode: jj quickly returns to Normal mode
 imap jj <Esc>
 
-" Multiple cursors plugin configuration
-set multiple-cursors
-" Add next occurrence (normal/visual)
-map <c-n> <Plug>NextWholeOccurrence
-xmap <c-n> <Plug>NextWholeOccurrence
-" Add next occurrence (word-wise)
-map g<c-n> <Plug>NextOccurrence
-xmap g<c-n> <Plug>NextOccurrence
-" Skip/remove occurrences in visual mode
-xmap <c-x> <Plug>SkipOccurrence
-xmap <c-p> <Plug>RemoveOccurrence
-" Select all whole occurrences
-map <c-s-n> <Plug>AllWholeOccurrences
-xmap <c-s-n> <Plug>AllWholeOccurrences
-
 " Control-key handler routing: whether keys go to IDE or Vim
 " a - all modes, n - normal, i - insert, v - visual
 sethandler <c-a> a:ide
 sethandler <c-b> a:ide
 sethandler <c-c> i-v:vim
 sethandler <c-d> i:ide
-sethandler <c-e> a:vim
+sethandler <c-e> a:ide
 sethandler <c-f> a:ide
 sethandler <c-h> n:vim
 sethandler <c-i> a:vim
 sethandler <c-j> n:vim
 sethandler <c-k> n:vim
-sethandler <c-l> n:vim
+sethandler <c-l> a:ide
 sethandler <c-m> a:ide
 sethandler <c-n> n:vim
 sethandler <c-o> a:vim
@@ -90,6 +75,9 @@ sethandler <c-s-n> a:vim
 
 " Space is the leader key
 let mapleader=" "
+
+" M-m behaves like <leader> (must be map, not noremap)
+map <A-m> <Space>
 
 " Insert mode: Ctrl-j/k move cursor up/down (IDE-like)
 imap <c-j> <down>
@@ -114,7 +102,7 @@ map _ <action>(StretchSplitToLeft)
 map + <action>(StretchSplitToRight)
 
 " Quick editing/reloading of IdeaVim config
-map <Space>eV :edit ~/.ideavimrc<cr>
+map <Space>.v :edit ~/.ideavimrc<cr>
 map <Space>sV :source ~/.ideavimrc<cr>
 
 " VCS / diff / error navigation
@@ -194,12 +182,12 @@ map <leader>.f <action>(ToggleFullScreen)
 map <leader>.k <action>(ChangeKeymap)
 map <leader>.l <action>(EditorToggleShowLineNumbers)
 map <leader>.m <action>(ExternalSystem.ProjectRefreshAction)
-map <leader>.p <action>(WelcomeScreen.Plugins)
+map <leader>.p <action>(ShowPlugins)
 map <leader>.r <action>(RunConfiguration)
 map <leader>.R <action>(RestartIde)
 map <leader>.s <action>(SettingsEntryPoint)
-map <leader>.t <action>(ViewToolButtons)
-map <leader>.v :edit ~/.ideavimrc<cr>
+map <leader>.t <action>(ChangeLaf)
+map <leader>.T <action>(ViewToolButtons)
 map <leader>.z <action>(ToggleZenMode)
 
 " <leader>a – Activate tool windows
@@ -208,6 +196,7 @@ map <leader>aB <action>(ActivateBuildToolWindow)
 map <leader>ac <action>(ActivateCommitToolWindow)
 map <leader>aC <action>(ActivateCoverageToolWindow)
 map <leader>ad <action>(ActivateDebugToolWindow)
+map <leader>aD <action>(ActivateServicesToolWindow)
 map <leader>af <action>(ActivateFindToolWindow)
 map <leader>ag <action>(ActivateVersionControlToolWindow)
 map <leader>aG <action>(ActivateGradleToolWindow)
@@ -224,71 +213,99 @@ map <leader>aS <action>(ActivateServicesToolWindow)
 map <leader>at <action>(ActivateTerminalToolWindow)
 map <leader>aT <action>(ActivateTaskToolWindow)
 map <leader>av <action>(ActivateVersionControlToolWindow)
+map <leader>aw <action>(Git.Show.WorkingTrees)
 
-" Recently used files
-map <leader>b <action>(RecentFiles)
+" Buffers
+nnoremap <leader>1 :buffer 1<CR>
+nnoremap <leader>2 :buffer 2<CR>
+nnoremap <leader>3 :buffer 3<CR>
+nnoremap <leader>4 :buffer 4<CR>
+nnoremap <leader>5 :buffer 5<CR>
+nnoremap <leader>6 :buffer 6<CR>
+nnoremap <leader>7 :buffer 7<CR>
+nnoremap <leader>8 :buffer 8<CR>
+nnoremap <leader>9 :buffer 9<CR>
+map <leader>bO <action>(CloseAllEditorsButActive)
+map <leader>b[ :bp<CR>
+map <leader>b] :bn<CR>
+map <leader>bb <action>(RecentFiles)
+map <leader>bd :q<CR>
+map <leader>bh :bp<CR>
+map <leader>bi :ls<CR>
+map <leader>bk :q<CR>
+map <leader>bl :bn<CR>
+map <leader>bn :bn<CR>
+map <leader>bp :bp<CR>
 
 " Education plugin helpers
 map <leader>C <action>(Educational.Check)
 
-" <leader>c – clear / close / collapse / config
-map <leader>ca <action>(CloseAllEditors)
-map <leader>ck <action>(ChangeKeymap)
+" Code /clear / close / collapse / config
+map <leader>ca <action>(ShowIntentionActions)
+map <leader>cd <action>(GotoDeclaration)
+map <leader>cf <action>(ReformatCode)
 map <leader>ch <action>(CallHierarchy)
+map <leader>ci <action>(OptimizeImports)
+map <leader>ck <action>(ChangeKeymap)
 map <leader>cn <action>(ClearAllNotifications)
-map <leader>co <action>(CloseAllEditorsButActive)
+map <leader>co <action>(OptimizeImports)
+map <leader>cO <action>(CloseAllEditorsButActive)
 map <leader>cp <action>(WelcomeScreen.Plugins)
+map <leader>cr <action>(RenameElement)
+map <leader>cR <action>(Refactorings.QuickListPopupAction)
 map <leader>cs <action>(SettingsEntryPoint)
-map <leader>cr <action>(CollapseRegion)
 map <leader>cv :edit ~/.ideavimrc<cr>
 
 " Debug / run mappings
 map <leader>db <action>(Debug)
-map <leader>de <action>(Debug)
 map <leader>dd <action>(ContextDebug)
+map <leader>de <action>(Debug)
 " Clear all marks
 map <leader>dm :delmarks 0-9A-Z<cr>
 
 " <leader>e – extract / edit / expand
+map <leader>eI <action>(ShowSettings)
+map <leader>eP <action>(ShowProjectStructureSettings)
+map <leader>eR <action>(editRunConfigurations)
+map <leader>eS <action>(ShowSettings)
 map <leader>ea <action>(ExpandAllRegions)
 map <leader>ec <action>(IntroduceConstant)
 map <leader>ef <action>(IntroduceField)
 map <leader>ei <action>(ExtractInterface)
-map <leader>eI <action>(ShowSettings)
 map <leader>em <action>(ExtractMethod)
 map <leader>ep <action>(IntroduceParameter)
-map <leader>eP <action>(ShowProjectStructureSettings)
 map <leader>er <action>(ExpandRegion)
-map <leader>eR <action>(editRunConfigurations)
-map <leader>eS <action>(ShowSettings)
 map <leader>ev <action>(IntroduceVariable)
+map <leader>eV <action>(refactoring.introduce.property)
 
 " <leader>f – find / format
 map <leader>fe <action>(RevealIn)
-map <leader>fi <action>(Find)
 map <leader>ff <action>(FindInPath)
+map <leader>fi <action>(Find)
 map <leader>fm <action>(ReformatCode)
 map <leader>fn <action>(NewElement)
 map <leader>fo <action>(ReformatCode)
 map <leader>fp <action>(FindInPath)
+map <leader>fr <action>(RecentFiles)
 map <leader>fs <action>(ToggleFullScreen)
 map <leader>fu <action>(FindUsages)
 
 " <leader>g – Git / goto / generate
+map <leader>gP <action>(Vcs.Push)
+map <leader>gT <action>(GotoTest)
 map <leader>ga <action>(Git.Add)
-map <leader>gc <action>(CheckinProject)
 map <leader>gb <action>(Annotate)
-map <leader>gf <action>(Git.Fetch)
-map <leader>gg <action>(Generate)
+map <leader>gc <action>(CheckinProject)
 map <leader>ge <action>(Generate)
-map <leader>gi <action>(GotoImplementation)
+map <leader>gf <action>(Git.Fetch)
+map <leader>gg <action>(ActivateVersionControlToolWindow)
 map <leader>gh <action>(Vcs.ShowTabbedFileHistory)
+map <leader>gi <action>(GotoImplementation)
 map <leader>gl <action>(Vcs.Show.Log)
 map <leader>gp <action>(Git.Pull)
-map <leader>gP <action>(Vcs.Push)
 map <leader>gs <action>(GotoSuperMethod)
 map <leader>gt <action>(GotoTest)
-map <leader>gT <action>(GotoTest)
+map <leader>gw <action>(Git.Show.WorkingTrees)
 
 " Hide all tool windows
 map <leader>h <action>(HideAllWindows)
@@ -301,11 +318,20 @@ map <leader>il <action>(Inline)
 map <leader>im <action>(ImplementMethods)
 map <leader>in <action>(Inline)
 map <leader>ip <action>(IntroduceParameter)
+map <leader>iP <action>(refactoring.introduce.property)
 map <leader>iv <action>(IntroduceVariable)
 
 " Quick docs / implementations
 map <leader>jd <action>(QuickJavaDoc)
 map <leader>ji <action>(QuickImplementations)
+
+" Avy-style jumps (requires AceJump + IdeaVim-EasyMotion plugins)
+" Keep easymotion from claiming <leader><leader> (bound to alternate-file above)
+let g:EasyMotion_do_mapping=0
+set easymotion
+" Normal mode: s/S jump with EasyMotion 2-char search
+nmap s <Plug>(easymotion-bd-f2)
+nmap S <Plug>(easymotion-bd-jk)
 
 " Change keymap
 map <leader>k <action>(ChangeKeymap)
@@ -314,8 +340,19 @@ map <leader>k <action>(ChangeKeymap)
 map <leader>lh <action>(LocalHistory.ShowHistory)
 map <leader>lH <action>(LocalHistory.ShowSelectionHistory)
 
-" Show marks
-map <leader>m :marks<CR>
+" Mode & mouse
+map <leader>mc <action>(ToggleCompactMode)
+map <leader>md <action>(ToggleDistractionFreeMode)
+map <leader>mf <action>(ToggleFullScreen)
+map <leader>mh <action>(ShowHoverInfo)
+map <leader>mk <action>(TogglePresentationAssistantAction)
+map <leader>mp <action>(TogglePresentationAssistantAction)
+map <leader>mP <action>(TogglePresentationMode)
+map <leader>mt <action>(ViewToolButtons)
+map <leader>mT <action>(ViewToolBar)
+map <leader>mv <action>(ChangeView)
+map <leader>mw <action>(ViewToolBar)
+map <leader>mz <action>(ToggleZenMode)
 
 " Education plugin navigation
 map <leader>N <action>(Educational.NextTask)
@@ -329,18 +366,20 @@ map <leader>ns <action>(NewScratchFile)
 map <leader>nt <action>(TerminalNewPredefinedSession)
 
 " <leader>o – open / optimize / override
+map <leader>oP <action>(OpenFile)
 map <leader>ob <action>(OpenInBrowser)
 map <leader>oe <action>(RevealIn)
 map <leader>of <action>(OpenFile)
 map <leader>og <action>(Vcs.Log.OpenAnotherTabInEditor)
 map <leader>oi <action>(OptimizeImports)
 map <leader>om <action>(OverrideMethods)
-map <leader>op <action>(OpenFile)
+map <leader>op <action>(ActivateProjectToolWindow)
 map <leader>or <action>(RecentProjectListGroup)
 map <leader>ot <action>(Terminal.OpenInTerminal)
 
-" Popup / parameter info / docs
+" Project/ Popup / parameter info / docs
 map <leader>pd <action>(QuickJavaDoc)
+map <leader>pf <action>(GotoFile)
 map <leader>ph <action>(ShowHoverInfo)
 map <leader>pi <action>(QuickImplementations)
 map <leader>pm <action>(ShowPopupMenu)
@@ -352,50 +391,51 @@ map <leader>pt <action>(PinActiveTabToggle)
 map <leader>q :q<CR>
 
 " <leader>r – run / refactor / replace
-map <leader>ra <action>(RunAnything)
 map <leader>rA <action>(RunnerActions)
-map <leader>rb <action>(Vcs.RollbackChangedLines)
 map <leader>rB <action>(ChangesView.Revert)
-map <leader>rc <action>(RunCoverage)
 map <leader>rC <action>(Coverage)
+map <leader>ra <action>(RunAnything)
+map <leader>rb <action>(Vcs.RollbackChangedLines)
+map <leader>rc <action>(RunCoverage)
 map <leader>rd <action>(DebugClass)
 map <leader>re <action>(Refactorings.QuickListPopupAction)
 map <leader>rf <action>(RecentFiles)
 map <leader>ri <action>(RevealIn)
+map <leader>rl <action>(RecentLocations)
 map <leader>rm <action>(RunMenu)
 map <leader>rn <action>(RenameElement)
 map <leader>ro <action>(ChangesView.Revert)
 map <leader>rp <action>(Replace)
-map <leader>rr <action>(ContextRun)
-map <leader>rs <action>(Resume)
+map <leader>rr <action>(RunClass)
+map <leader>rs <action>(runShellFileAction)
 map <leader>ru <action>(ChooseRunConfiguration)
 map <leader>rw <action>(ReplaceInPath)
 
 " <leader>s – search / show / surround
+map <leader>sG <action>(ExternalSystem.ProjectRefreshAction)
+map <leader>sH <action>(Vcs.ShowTabbedFileHistory)
+map <leader>sI <action>(ShowIntentionActions)
 map <leader>sa <action>(GotoAction)
 map <leader>sc <action>(GotoClass)
 map <leader>sd <action>(QuickJavaDoc)
 map <leader>se <action>(ShowErrorDescription)
 map <leader>sf <action>(GotoFile)
-map <leader>sG <action>(ExternalSystem.ProjectRefreshAction)
 map <leader>sh <action>(ShowHoverInfo)
-map <leader>sH <action>(Vcs.ShowTabbedFileHistory)
 map <leader>si <action>(QuickImplementations)
-map <leader>sI <action>(ShowIntentionActions)
 map <leader>sk <action>(TogglePresentationAssistantAction)
 " Debug stepping
-map <leader>si <action>(StepInto)
-map <leader>so <action>(StepOver)
-map <leader>sO <action>(StepOut)
-map <leader>sp <action>(ParameterInfo)
-map <leader>sP <action>(ShowPopupMenu)
-map <leader>sm <action>(ShowPopupMenu)
 map <leader>sM <action>(ExternalSystem.ProjectRefreshAction)
+map <leader>sO <action>(StepOut)
+map <leader>sP <action>(ShowPopupMenu)
+map <leader>sT <action>(Stop)
+map <leader>si <action>(StepInto)
+map <leader>sm <action>(ShowPopupMenu)
 map <leader>sn <action>(ShowNavBar)
+map <leader>so <action>(StepOver)
+map <leader>sp <action>(TextSearchAction)
 map <leader>sr <action>(ReplaceInPath)
 map <leader>ss <action>(GotoSymbol)
 map <leader>st <action>(TextSearchAction)
-map <leader>sT <action>(Stop)
 map <leader>su <action>(ShowUsages)
 map <leader>sv :source ~/.ideavimrc<cr>
 map <leader>sw <action>(SurroundWith)
@@ -407,6 +447,8 @@ map <leader>tf <action>(ToggleFullScreen)
 map <leader>th :tabm<Space>-<CR>
 map <leader>tk <action>(TogglePresentationAssistantAction)
 map <leader>tl :tabm<Space>+<CR>
+map <leader>tn :set number!<CR>
+map <leader>tr :set relativenumber!<CR>
 map <leader>tt <action>(ViewToolButtons)
 map <leader>tv <action>(VimPluginToggle)
 map <leader>tz <action>(ToggleZenMode)
@@ -423,8 +465,16 @@ map <leader>vl <action>(Vcs.Show.Log)
 map <leader>vp <action>(Git.Pull)
 map <leader>vP <action>(Vcs.Push)
 
-" <leader>w – surround with code template
-map <leader>w <action>(SurroundWith)
+" <leader>w – windows
+map <leader>wc :q<CR>
+map <leader>wd :q<CR>
+map <leader>wh <c-w>h
+map <leader>wj <c-w>j
+map <leader>wk <c-w>k
+map <leader>wl <c-w>l
+map <leader>wq :q<CR>
+map <leader>ws :sp<CR>
+map <leader>wv :vs<CR>
 
 " Show intention actions
 map <leader><cr> <action>(ShowIntentionActions)
