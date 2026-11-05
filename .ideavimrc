@@ -617,6 +617,9 @@ imap <A-g>p <Action>(GotoPreviousError)
 map <A-g><A-p> <Action>(GotoPreviousError)
 imap <A-g><A-p> <Action>(GotoPreviousError)
 
+nnoremap <C-x><Space> <C-v>
+xnoremap <C-x><Space> <C-v>
+inoremap <C-x><Space> <Esc><C-v>
 map <C-x>0 <Action>(CloseContent)
 imap <C-x>0 <Action>(CloseContent)
 map <C-x>1 <Action>(UnsplitAll)
